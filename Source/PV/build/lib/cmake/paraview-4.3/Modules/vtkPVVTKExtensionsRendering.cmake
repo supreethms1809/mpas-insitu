@@ -1,0 +1,8 @@
+set(vtkPVVTKExtensionsRendering_LOADED 1)
+set(vtkPVVTKExtensionsRendering_DEPENDS "vtkChartsCore;vtkCommonColor;vtkFiltersExtraction;vtkFiltersGeneric;vtkFiltersHyperTree;vtkFiltersParallel;vtkFiltersParallelMPI;vtkGUISupportQt;vtkIOExport;vtkIOXML;vtkInteractionStyle;vtkInteractionWidgets;vtkPVVTKExtensionsCore;vtkRenderingAnnotation;vtkRenderingFreeTypeOpenGL;vtkRenderingLIC;vtkRenderingMatplotlib;vtkRenderingOpenGL;vtkRenderingParallel;vtkRenderingParallelLIC;vtkUtilitiesEncodeString;vtkicet;vtkzlib")
+set(vtkPVVTKExtensionsRendering_LIBRARIES "vtkPVVTKExtensionsRendering")
+set(vtkPVVTKExtensionsRendering_INCLUDE_DIRS "/home/mpas/Desktop/Source/PV/build/ParaViewCore/VTKExtensions/Rendering/;/home/mpas/Desktop/Source/PV/ParaView/ParaViewCore/VTKExtensions/Rendering/")
+set(vtkPVVTKExtensionsRendering_LIBRARY_DIRS "")
+set(vtkPVVTKExtensionsRendering_RUNTIME_LIBRARY_DIRS "/home/mpas/Desktop/Source/PV/build/lib")
+set(vtkPVVTKExtensionsRendering_WRAP_HIERARCHY_FILE "/home/mpas/Desktop/Source/PV/build/lib/cmake/paraview-4.3/Modules/vtkPVVTKExtensionsRenderingHierarchy.txt")
+

@@ -1,0 +1,9 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPNrrdReaderPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkMPIImageReaderPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkIOMPIImagePythonInitImpl.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPNrrdReaderPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkMPIImageReaderPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkIOMPIImagePythonInit.cxx.rule

@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkImagingColorPython-pv4.3.a  CMakeFiles/vtkImagingColorPython.dir/vtkImagingColorPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkImagingColorPython-pv4.3.a

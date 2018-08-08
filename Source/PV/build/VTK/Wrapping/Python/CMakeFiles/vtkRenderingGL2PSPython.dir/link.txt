@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkRenderingGL2PSPython-pv4.3.a  CMakeFiles/vtkRenderingGL2PSPython.dir/vtkRenderingGL2PSPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkRenderingGL2PSPython-pv4.3.a

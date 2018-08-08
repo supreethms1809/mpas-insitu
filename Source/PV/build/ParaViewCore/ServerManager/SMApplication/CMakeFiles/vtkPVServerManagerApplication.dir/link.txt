@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkPVServerManagerApplication-pv4.3.a  CMakeFiles/vtkPVServerManagerApplication.dir/vtkInitializationHelper.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkPVServerManagerApplication-pv4.3.a

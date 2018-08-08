@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkFiltersStatisticsPython-pv4.3.a  CMakeFiles/vtkFiltersStatisticsPython.dir/vtkFiltersStatisticsPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkFiltersStatisticsPython-pv4.3.a

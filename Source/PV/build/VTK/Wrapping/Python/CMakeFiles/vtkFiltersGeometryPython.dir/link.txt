@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkFiltersGeometryPython-pv4.3.a  CMakeFiles/vtkFiltersGeometryPython.dir/vtkFiltersGeometryPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkFiltersGeometryPython-pv4.3.a

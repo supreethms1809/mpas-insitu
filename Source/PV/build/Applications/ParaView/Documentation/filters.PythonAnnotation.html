@@ -1,0 +1,83 @@
+
+<html>
+    <head>
+        <title>Python Annotation</title>
+        <meta name="proxy_name" contents="filters.PythonAnnotation"/>
+        <meta name="filename" contents="filters.PythonAnnotation.html"/>
+    </head>
+    <body>
+        <h2>Python Annotation (PythonAnnotation)</h2>
+        <i>
+            <p>This filter evaluates a Python expression for a text annotation</p>
+        </i>
+        <div class="description">
+                     This filter uses Python to calculate an expression. It
+                     depends heavily on the numpy and paraview.vtk modules. To
+                     use the parallel functions, mpi4py is also necessary. The
+                     expression is evaluated and the resulting scalar value or
+                     numpy array is added to the output as an array. See numpy
+                     and paraview.vtk documentation for the list of available
+                     functions. This filter tries to make it easy for the user
+                     to write expressions by defining certain variables. The
+                     filter tries to assign each array to a variable of the
+                     same name. If the name of the array is not a valid Python
+                     variable, it has to be accessed through a dictionary
+                     called arrays (i.e. arrays['array_name']).</div>
+        <table width="97%" border="2px">
+            <tr bgcolor="#9acd32">
+                <th>Property</th>
+                <th width="60%">Description</th>
+                <th width="5%">Default(s)</th>
+                <th width="20%">Restrictions</th>
+            </tr>
+            <tr>
+                <th>Input</th>
+                <td>Set the input of the filter.</td>
+                <td>
+                    <span/>
+                </td>
+                <td>
+                    <p>Accepts input of following types:<ul>
+                            <li>vtkDataObject</li>
+                        </ul>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <th>ArrayAssociation</th>
+                <td>Select the attribute to use to popular array names from.</td>
+                <td>2<span/>
+                </td>
+                <td>
+                    <p>The value(s) is an enumeration of the following:<ul>
+                            <li>Point Data (0)</li>
+                            <li>Cell Data (1)</li>
+                            <li>Field Data (2)</li>
+                            <li>Row Data (6)</li>
+                        </ul>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <th>Expression</th>
+                <td>The Python expression evaluated during execution.
+        FieldData arrays are direclty available through their name. Set of
+        provided variables [input, t_value, t_steps, t_range, t_index,
+        FieldData, PointData, CellData] (i.e.: "Momentum: (%f, %f, %f)" %
+        (XMOM[t_index,0], YMOM[t_index,0], ZMOM[t_index,0]) )</td>
+                <td>
+                    <span/>
+                </td>
+                <td/>
+            </tr>
+            <tr>
+                <th>AnnotationValue</th>
+                <td>Text that is used as annotation</td>
+                <td>
+                    <span/>
+                </td>
+                <td/>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkRenderingFreeTypeOpenGLPython27D-pv4.3.a  CMakeFiles/vtkRenderingFreeTypeOpenGLPythonD.dir/vtkOpenGLFreeTypeTextMapperPython.cxx.o CMakeFiles/vtkRenderingFreeTypeOpenGLPythonD.dir/vtkRenderingFreeTypeOpenGLPythonInitImpl.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkRenderingFreeTypeOpenGLPython27D-pv4.3.a

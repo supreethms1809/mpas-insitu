@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkViewsContext2DPython-pv4.3.a  CMakeFiles/vtkViewsContext2DPython.dir/vtkViewsContext2DPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkViewsContext2DPython-pv4.3.a

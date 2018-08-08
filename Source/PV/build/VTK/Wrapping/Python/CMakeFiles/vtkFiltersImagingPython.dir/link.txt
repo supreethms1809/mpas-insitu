@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkFiltersImagingPython-pv4.3.a  CMakeFiles/vtkFiltersImagingPython.dir/vtkFiltersImagingPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkFiltersImagingPython-pv4.3.a

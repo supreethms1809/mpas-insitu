@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOParallelExodusPython27D-pv4.3.a  CMakeFiles/vtkIOParallelExodusPythonD.dir/vtkPExodusIIReaderPython.cxx.o CMakeFiles/vtkIOParallelExodusPythonD.dir/vtkPExodusIIWriterPython.cxx.o CMakeFiles/vtkIOParallelExodusPythonD.dir/vtkIOParallelExodusPythonInitImpl.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOParallelExodusPython27D-pv4.3.a

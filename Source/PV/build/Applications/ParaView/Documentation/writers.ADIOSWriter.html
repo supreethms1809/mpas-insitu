@@ -1,0 +1,110 @@
+
+<html>
+    <head>
+        <title>ADIOSWriter</title>
+        <meta name="proxy_name" contents="writers.ADIOSWriter"/>
+        <meta name="filename" contents="writers.ADIOSWriter.html"/>
+    </head>
+    <body>
+        <h2>ADIOSWriter (ADIOSWriter)</h2>
+        <i>
+            <p>Write ADIOS BP files using VTKs schema.</p>
+        </i>
+        <div class="description">
+        Writer to write ADIOS BP files using a VTK specific schema
+      </div>
+        <table width="97%" border="2px">
+            <tr bgcolor="#9acd32">
+                <th>Property</th>
+                <th width="60%">Description</th>
+                <th width="5%">Default(s)</th>
+                <th width="20%">Restrictions</th>
+            </tr>
+            <tr>
+                <th>Input</th>
+                <td>The input filter/source whose output dataset is to
+        written to the file.</td>
+                <td>
+                    <span/>
+                </td>
+                <td>
+                    <p>Accepts input of following types:<ul>
+                            <li>vtkCompositeDataSet</li>
+                            <li>vtkDataSet</li>
+                        </ul>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <th>TransportMethod</th>
+                <td>
+          Select the specific ADIOS backend write method to use.
+        </td>
+                <td>1<span/>
+                </td>
+                <td>
+                    <p>The value(s) is an enumeration of the following:<ul>
+                            <li>NULL (0)</li>
+                            <li>POSIX (1)</li>
+                            <li>MPI (2)</li>
+                            <li>MPILustre (3)</li>
+                            <li>MPIAggregate (4)</li>
+                            <li>VarMerge (5)</li>
+                            <li>DataSpaces (6)</li>
+                            <li>DIMES (7)</li>
+                            <li>FlexPath (8)</li>
+                            <li>PHDF5 (9)</li>
+                            <li>NetCDF4 (10)</li>
+                        </ul>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <th>TransportMethodArguments</th>
+                <td>
+          Configuration parameters to pass to the specified ADIOS backend.
+        </td>
+                <td>
+                    <span/>
+                </td>
+                <td/>
+            </tr>
+            <tr>
+                <th>CompressionMethod</th>
+                <td>
+          Select the specific array compression method to use.
+        </td>
+                <td>0<span/>
+                </td>
+                <td>
+                    <p>The value(s) is an enumeration of the following:<ul>
+                            <li>None (0)</li>
+                            <li>ZLib (1)</li>
+                            <li>BZip2 (2)</li>
+                            <li>SZip (3)</li>
+                        </ul>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <th>FileName</th>
+                <td>The name of the file to write to.</td>
+                <td>
+                    <span/>
+                </td>
+                <td/>
+            </tr>
+            <tr>
+                <th>WriteAllTimeSteps</th>
+                <td>When WriteAllTimeSteps is turned ON, the writer is
+        executed once for each time step available from the
+        reader.</td>
+                <td>0<span/>
+                </td>
+                <td>
+                    <p>Accepts boolean values (0 or 1).</p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

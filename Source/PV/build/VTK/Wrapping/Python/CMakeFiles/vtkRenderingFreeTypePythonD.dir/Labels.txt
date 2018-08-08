@@ -1,0 +1,17 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkFreeTypeStringToImagePython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkMathTextFreeTypeTextRendererPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkMathTextUtilitiesPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkTextRendererStringToImagePython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkScaledTextActorPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkVectorTextPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkRenderingFreeTypePythonInitImpl.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkFreeTypeStringToImagePython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkMathTextFreeTypeTextRendererPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkMathTextUtilitiesPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkTextRendererStringToImagePython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkScaledTextActorPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkVectorTextPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkRenderingFreeTypePythonInit.cxx.rule

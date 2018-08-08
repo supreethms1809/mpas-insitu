@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOMPIImage-pv4.3.a  CMakeFiles/vtkIOMPIImage.dir/vtkPNrrdReader.cxx.o CMakeFiles/vtkIOMPIImage.dir/vtkMPIImageReader.cxx.o CMakeFiles/vtkIOMPIImage.dir/vtkIOMPIImageObjectFactory.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOMPIImage-pv4.3.a

@@ -1,0 +1,19 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkAMRDataSetCachePython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkAMRBaseParticlesReaderPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkAMRBaseReaderPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkAMREnzoParticlesReaderPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkAMREnzoReaderPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkAMRFlashParticlesReaderPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkAMRFlashReaderPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkIOAMRPythonInitImpl.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkAMRDataSetCachePython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkAMRBaseParticlesReaderPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkAMRBaseReaderPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkAMREnzoParticlesReaderPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkAMREnzoReaderPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkAMRFlashParticlesReaderPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkAMRFlashReaderPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkIOAMRPythonInit.cxx.rule

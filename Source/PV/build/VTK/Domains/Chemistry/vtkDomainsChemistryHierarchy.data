@@ -1,0 +1,13 @@
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkBlueObeliskData.h;vtkDomainsChemistry;WRAP_EXCLUDE
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkBlueObeliskDataParser.h;vtkDomainsChemistry;WRAP_EXCLUDE
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkCMLMoleculeReader.h;vtkDomainsChemistry
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkMoleculeAlgorithm.h;vtkDomainsChemistry
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkMoleculeMapper.h;vtkDomainsChemistry
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkMoleculeToAtomBallFilter.h;vtkDomainsChemistry
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkMoleculeToBondStickFilter.h;vtkDomainsChemistry
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkMoleculeToPolyDataFilter.h;vtkDomainsChemistry;ABSTRACT
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkPeriodicTable.h;vtkDomainsChemistry
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkProgrammableElectronicData.h;vtkDomainsChemistry
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkProteinRibbonFilter.h;vtkDomainsChemistry
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkSimpleBondPerceiver.h;vtkDomainsChemistry
+

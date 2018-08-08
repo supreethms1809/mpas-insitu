@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../lib/libvtkParallelMPICS-pv4.3.a  CMakeFiles/vtkParallelMPICS.dir/vtkMPICommunicatorClientServer.cxx.o CMakeFiles/vtkParallelMPICS.dir/vtkMPIControllerClientServer.cxx.o CMakeFiles/vtkParallelMPICS.dir/vtkParallelMPICSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkParallelMPICS-pv4.3.a

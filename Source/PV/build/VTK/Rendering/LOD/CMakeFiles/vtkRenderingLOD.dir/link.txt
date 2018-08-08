@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkRenderingLOD-pv4.3.a  CMakeFiles/vtkRenderingLOD.dir/vtkLODActor.cxx.o CMakeFiles/vtkRenderingLOD.dir/vtkQuadricLODActor.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkRenderingLOD-pv4.3.a

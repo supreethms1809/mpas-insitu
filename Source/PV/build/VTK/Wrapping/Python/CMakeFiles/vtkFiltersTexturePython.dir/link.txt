@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkFiltersTexturePython-pv4.3.a  CMakeFiles/vtkFiltersTexturePython.dir/vtkFiltersTexturePythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkFiltersTexturePython-pv4.3.a

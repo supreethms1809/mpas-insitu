@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOXMLParserPython-pv4.3.a  CMakeFiles/vtkIOXMLParserPython.dir/vtkIOXMLParserPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOXMLParserPython-pv4.3.a

@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../lib/libvtkRenderingParallelLICCS-pv4.3.a  CMakeFiles/vtkRenderingParallelLICCS.dir/vtkParallelTimerClientServer.cxx.o CMakeFiles/vtkRenderingParallelLICCS.dir/vtkPSurfaceLICPainterClientServer.cxx.o CMakeFiles/vtkRenderingParallelLICCS.dir/vtkRenderingParallelLICObjectFactoryClientServer.cxx.o CMakeFiles/vtkRenderingParallelLICCS.dir/vtkRenderingParallelLICCSInit.cxx.o
+/usr/bin/ranlib ../../lib/libvtkRenderingParallelLICCS-pv4.3.a

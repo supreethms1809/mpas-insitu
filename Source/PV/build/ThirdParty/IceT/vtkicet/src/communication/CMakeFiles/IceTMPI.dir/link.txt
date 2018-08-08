@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../../../lib/libIceTMPI.a  CMakeFiles/IceTMPI.dir/mpi.c.o
+/usr/bin/ranlib ../../../../../lib/libIceTMPI.a

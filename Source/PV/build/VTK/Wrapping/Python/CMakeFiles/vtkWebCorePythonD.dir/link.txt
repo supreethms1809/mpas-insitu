@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkWebCorePython27D-pv4.3.a  CMakeFiles/vtkWebCorePythonD.dir/vtkDataEncoderPython.cxx.o CMakeFiles/vtkWebCorePythonD.dir/vtkWebApplicationPython.cxx.o CMakeFiles/vtkWebCorePythonD.dir/vtkWebInteractionEventPython.cxx.o CMakeFiles/vtkWebCorePythonD.dir/vtkWebUtilitiesPython.cxx.o CMakeFiles/vtkWebCorePythonD.dir/vtkObjectIdMapPython.cxx.o CMakeFiles/vtkWebCorePythonD.dir/vtkWebCorePythonInitImpl.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkWebCorePython27D-pv4.3.a

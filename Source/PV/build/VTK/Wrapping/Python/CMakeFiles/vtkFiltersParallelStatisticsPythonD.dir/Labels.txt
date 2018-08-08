@@ -1,0 +1,23 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPAutoCorrelativeStatisticsPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPContingencyStatisticsPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPCorrelativeStatisticsPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPDescriptiveStatisticsPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPKMeansStatisticsPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPMultiCorrelativeStatisticsPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPOrderStatisticsPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPPCAStatisticsPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPBivariateLinearTableThresholdPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkFiltersParallelStatisticsPythonInitImpl.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPAutoCorrelativeStatisticsPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPContingencyStatisticsPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPCorrelativeStatisticsPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPDescriptiveStatisticsPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPKMeansStatisticsPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPMultiCorrelativeStatisticsPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPOrderStatisticsPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPPCAStatisticsPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPBivariateLinearTableThresholdPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkFiltersParallelStatisticsPythonInit.cxx.rule

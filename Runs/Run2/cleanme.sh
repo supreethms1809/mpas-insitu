@@ -1,0 +1,1 @@
+/home/mpas/bin/cleanme.sh

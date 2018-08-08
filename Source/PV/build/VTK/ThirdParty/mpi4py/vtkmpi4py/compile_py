@@ -1,0 +1,3 @@
+from compileall import compile_dir
+compile_dir("/home/mpas/Desktop/Source/PV/build/lib/site-packages/mpi4py")
+

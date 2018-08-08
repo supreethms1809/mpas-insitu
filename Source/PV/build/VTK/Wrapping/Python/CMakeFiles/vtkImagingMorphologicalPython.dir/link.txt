@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkImagingMorphologicalPython-pv4.3.a  CMakeFiles/vtkImagingMorphologicalPython.dir/vtkImagingMorphologicalPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkImagingMorphologicalPython-pv4.3.a

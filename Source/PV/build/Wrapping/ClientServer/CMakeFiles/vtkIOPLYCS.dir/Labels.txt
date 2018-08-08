@@ -1,0 +1,8 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkPLYReaderClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkPLYWriterClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkIOPLYCSInit.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/PLY/vtkPLYReader.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/PLY/vtkPLYWriter.h

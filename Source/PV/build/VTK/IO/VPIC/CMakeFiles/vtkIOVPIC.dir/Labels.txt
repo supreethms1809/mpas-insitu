@@ -1,0 +1,8 @@
+# Target labels
+ vtkIOVPIC
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/VPIC/vtkVPICReader.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/VPIC/vtkVPICReader.h
+/home/mpas/Desktop/Source/PV/build/VTK/IO/VPIC/vtkIOVPICModule.h
+/home/mpas/Desktop/Source/PV/build/VTK/IO/VPIC/vtkIOVPICHierarchy.stamp.txt
+/home/mpas/Desktop/Source/PV/build/VTK/IO/VPIC/vtkIOVPICHierarchy.stamp.txt.rule

@@ -1,0 +1,10 @@
+# Target labels
+ vtkRenderingFreeTypeOpenGL
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/FreeTypeOpenGL/vtkOpenGLFreeTypeTextMapper.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Rendering/FreeTypeOpenGL/vtkRenderingFreeTypeOpenGLObjectFactory.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/FreeTypeOpenGL/vtkOpenGLFreeTypeTextMapper.h
+/home/mpas/Desktop/Source/PV/build/VTK/Rendering/FreeTypeOpenGL/vtkRenderingFreeTypeOpenGLObjectFactory.h
+/home/mpas/Desktop/Source/PV/build/VTK/Rendering/FreeTypeOpenGL/vtkRenderingFreeTypeOpenGLModule.h
+/home/mpas/Desktop/Source/PV/build/VTK/Rendering/FreeTypeOpenGL/vtkRenderingFreeTypeOpenGLHierarchy.stamp.txt
+/home/mpas/Desktop/Source/PV/build/VTK/Rendering/FreeTypeOpenGL/vtkRenderingFreeTypeOpenGLHierarchy.stamp.txt.rule

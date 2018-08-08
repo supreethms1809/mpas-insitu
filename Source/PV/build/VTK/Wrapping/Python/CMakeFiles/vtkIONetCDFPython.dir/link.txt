@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIONetCDFPython-pv4.3.a  CMakeFiles/vtkIONetCDFPython.dir/vtkIONetCDFPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIONetCDFPython-pv4.3.a

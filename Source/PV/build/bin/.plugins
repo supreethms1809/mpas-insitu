@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Plugins>
+  <Plugin name="CatalystScriptGeneratorPlugin" auto_load="0"/>
+  <Plugin name="RGBZView" auto_load="0"/>
+</Plugins>

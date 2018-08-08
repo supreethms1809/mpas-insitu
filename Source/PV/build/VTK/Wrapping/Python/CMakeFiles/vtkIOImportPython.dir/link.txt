@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOImportPython-pv4.3.a  CMakeFiles/vtkIOImportPython.dir/vtkIOImportPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOImportPython-pv4.3.a

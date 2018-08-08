@@ -1,0 +1,104 @@
+
+<html>
+    <head>
+        <title>Annotate Attribute Data</title>
+        <meta name="proxy_name" contents="filters.AnnotateAttributeData"/>
+        <meta name="filename" contents="filters.AnnotateAttributeData.html"/>
+    </head>
+    <body>
+        <h2>Annotate Attribute Data (AnnotateAttributeData)</h2>
+        <i>
+            <p>Adds a text annotation to a Rander View</p>
+        </i>
+        <div class="description">
+This filter can be used to add a text annotation to a Render View (or
+similar) using a tuple from any attribute array (point/cell/field/row
+etc.) from a specific rank (when running in parallel). Use <b>ArrayName</b>
+property to select the array association and array name. Use
+*<i>ElementId</i> property to set the element number to extract the value to
+label with. When running on multiple ranks, use <b>ProcessId</b> property
+to select the rank of interest.  The <b>Prefix</b> property can be used to
+specify a string that will be used as the prefix to the generated
+annotation text.
+      </div>
+        <table width="97%" border="2px">
+            <tr bgcolor="#9acd32">
+                <th>Property</th>
+                <th width="60%">Description</th>
+                <th width="5%">Default(s)</th>
+                <th width="20%">Restrictions</th>
+            </tr>
+            <tr>
+                <th>Input</th>
+                <td>
+             Set the input of the filter. To avoid the complications/confusion when identifying
+             elements in a composite dataset, this filter doesn't support composite datasets
+             currently.
+           </td>
+                <td>
+                    <span/>
+                </td>
+                <td>
+                    <p>Accepts input of following types:<ul>
+                            <li>vtkDataSet</li>
+                            <li>vtkTable</li>
+                        </ul>
+                    </p>
+                    <p>
+      The dataset much contain a field array (any)
+      
+        with 1 component(s).
+      </p>
+                </td>
+            </tr>
+            <tr>
+                <th>ArrayAssociation</th>
+                <td>Select the attribute to use to popular array names from.</td>
+                <td>2<span/>
+                </td>
+                <td>
+                    <p>The value(s) is an enumeration of the following:<ul>
+                            <li>Point Data (0)</li>
+                            <li>Cell Data (1)</li>
+                            <li>Field Data (2)</li>
+                            <li>Row Data (6)</li>
+                        </ul>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <th>ArrayName</th>
+                <td>Choose arrays that is going to be displayed</td>
+                <td>
+                    <span/>
+                </td>
+                <td/>
+            </tr>
+            <tr>
+                <th>ElementId</th>
+                <td>
+          Set the element index to annotate with.
+        </td>
+                <td>0<span/>
+                </td>
+                <td/>
+            </tr>
+            <tr>
+                <th>ProcessId</th>
+                <td>
+            Set the process rank to extract element from.
+        </td>
+                <td>0<span/>
+                </td>
+                <td/>
+            </tr>
+            <tr>
+                <th>Prefix</th>
+                <td>Text that is used as a prefix to the field value</td>
+                <td>Value is: <span/>
+                </td>
+                <td/>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkPythonInterpreterPython-pv4.3.a  CMakeFiles/vtkPythonInterpreterPython.dir/vtkPythonInterpreterPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkPythonInterpreterPython-pv4.3.a

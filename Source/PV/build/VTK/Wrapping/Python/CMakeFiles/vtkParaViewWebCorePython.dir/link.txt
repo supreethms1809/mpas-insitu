@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkParaViewWebCorePython-pv4.3.a  CMakeFiles/vtkParaViewWebCorePython.dir/vtkParaViewWebCorePythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkParaViewWebCorePython-pv4.3.a

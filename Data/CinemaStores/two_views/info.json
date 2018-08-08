@@ -1,0 +1,17 @@
+{
+    "metadata": {
+        "type": "workbench"
+    },
+    "runs": [
+        {
+        "title": "image_0",
+        "description": "image_0",
+        "path": "image_0"
+        },
+        {
+        "title": "image_1",
+        "description": "image_1",
+        "path": "image_1"
+        }
+    ]
+}

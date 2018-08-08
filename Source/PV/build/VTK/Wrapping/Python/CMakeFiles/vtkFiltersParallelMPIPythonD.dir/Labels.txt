@@ -1,0 +1,15 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkDistributedDataFilterPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPExtractGridPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPExtractRectilinearGridPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPExtractVOIPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkStructuredImplicitConnectivityPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkFiltersParallelMPIPythonInitImpl.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkDistributedDataFilterPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPExtractGridPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPExtractRectilinearGridPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPExtractVOIPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkStructuredImplicitConnectivityPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkFiltersParallelMPIPythonInit.cxx.rule

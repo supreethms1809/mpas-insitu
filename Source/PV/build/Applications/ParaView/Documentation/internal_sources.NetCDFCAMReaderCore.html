@@ -1,0 +1,84 @@
+
+<html>
+    <head>
+        <title>NetCDF CAM reader</title>
+        <meta name="proxy_name" contents="internal_sources.NetCDFCAMReaderCore"/>
+        <meta name="filename" contents="internal_sources.NetCDFCAMReaderCore.html"/>
+    </head>
+    <body>
+        <h2>NetCDF CAM reader (NetCDFCAMReaderCore)</h2>
+        <i>
+            <p/>
+        </i>
+        <div class="description">Core for NetCDF CAM reader.</div>
+        <table width="97%" border="2px">
+            <tr bgcolor="#9acd32">
+                <th>Property</th>
+                <th width="60%">Description</th>
+                <th width="5%">Default(s)</th>
+                <th width="20%">Restrictions</th>
+            </tr>
+            <tr>
+                <th>FileName</th>
+                <td>This property specifies the file name to
+        read.</td>
+                <td>
+                    <span/>
+                </td>
+                <td>
+                    <p> The value(s) must be a filename (or filenames).</p>
+                </td>
+            </tr>
+            <tr>
+                <th>ConnectivityFileName</th>
+                <td>This property specifies the file name to read for the
+        grid connectivity.</td>
+                <td>
+                    <span/>
+                </td>
+                <td>
+                    <p> The value(s) must be a filename (or filenames).</p>
+                </td>
+            </tr>
+            <tr>
+                <th>PointsFileName</th>
+                <td>This property specifies the file name to read for the
+        points and field information.</td>
+                <td>
+                    <span/>
+                </td>
+                <td>
+                    <p> The value(s) must be a filename (or filenames).</p>
+                </td>
+            </tr>
+            <tr>
+                <th>SingleLevel</th>
+                <td>Specify whether to only read in a single level and any
+        variables that are prescribed over this surface.</td>
+                <td>0<span/>
+                </td>
+                <td>
+                    <p>Accepts boolean values (0 or 1).</p>
+                </td>
+            </tr>
+            <tr>
+                <th>CellLayerRight</th>
+                <td>Specify whether to add the extra layer of cells on the
+        right or left of the domain.</td>
+                <td>1<span/>
+                </td>
+                <td>
+                    <p>Accepts boolean values (0 or 1).</p>
+                </td>
+            </tr>
+            <tr>
+                <th>TimestepValues</th>
+                <td>Available timestep values.</td>
+                <td>
+                    <span/>
+                </td>
+                <td/>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Imaging/Fourier/vtkImageButterworthHighPass.h;vtkImagingFourier
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Imaging/Fourier/vtkImageButterworthLowPass.h;vtkImagingFourier
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Imaging/Fourier/vtkImageFFT.h;vtkImagingFourier
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Imaging/Fourier/vtkImageFourierCenter.h;vtkImagingFourier
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Imaging/Fourier/vtkImageFourierFilter.h;vtkImagingFourier;ABSTRACT
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Imaging/Fourier/vtkImageIdealHighPass.h;vtkImagingFourier
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Imaging/Fourier/vtkImageIdealLowPass.h;vtkImagingFourier
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Imaging/Fourier/vtkImageRFFT.h;vtkImagingFourier
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Imaging/Fourier/vtkTableFFT.h;vtkImagingFourier
+

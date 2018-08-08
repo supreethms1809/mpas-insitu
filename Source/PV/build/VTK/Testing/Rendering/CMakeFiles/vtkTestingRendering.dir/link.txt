@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkTestingRendering-pv4.3.a  CMakeFiles/vtkTestingRendering.dir/vtkTesting.cxx.o CMakeFiles/vtkTestingRendering.dir/vtkTestingInteractor.cxx.o CMakeFiles/vtkTestingRendering.dir/vtkTestingObjectFactory.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkTestingRendering-pv4.3.a

@@ -1,0 +1,7 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPNetCDFPOPReaderPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkIOParallelNetCDFPythonInitImpl.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPNetCDFPOPReaderPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkIOParallelNetCDFPythonInit.cxx.rule

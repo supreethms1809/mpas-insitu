@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkRenderingMatplotlib-pv4.3.a  CMakeFiles/vtkRenderingMatplotlib.dir/vtkMatplotlibMathTextUtilities.cxx.o CMakeFiles/vtkRenderingMatplotlib.dir/vtkRenderingMatplotlibObjectFactory.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkRenderingMatplotlib-pv4.3.a

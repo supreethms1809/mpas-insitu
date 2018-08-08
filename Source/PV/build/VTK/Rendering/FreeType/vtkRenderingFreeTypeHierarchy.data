@@ -1,0 +1,10 @@
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/FreeType/vtkFreeTypeStringToImage.h;vtkRenderingFreeType
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/FreeType/vtkFreeTypeUtilities.h;vtkRenderingFreeType;WRAP_EXCLUDE
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/FreeType/vtkFreeTypeTools.h;vtkRenderingFreeType;WRAP_EXCLUDE
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/FreeType/vtkMathTextFreeTypeTextRenderer.h;vtkRenderingFreeType
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/FreeType/vtkMathTextUtilities.h;vtkRenderingFreeType
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/FreeType/vtkTextRendererStringToImage.h;vtkRenderingFreeType
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/FreeType/vtkScaledTextActor.h;vtkRenderingFreeType
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/FreeType/vtkVectorText.h;vtkRenderingFreeType
+/home/mpas/Desktop/Source/PV/build/VTK/Rendering/FreeType/vtkRenderingFreeTypeObjectFactory.h;vtkRenderingFreeType;WRAP_EXCLUDE
+

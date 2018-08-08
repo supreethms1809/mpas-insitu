@@ -1,0 +1,9 @@
+-I/home/mpas/Desktop/Source/PV/build
+-I/home/mpas/Desktop/Source/PV/ParaView/VTK/Wrapping/Python
+-I/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python
+-I/usr/include/python2.7
+-DVTK_IN_VTK
+-DMPICH_IGNORE_CXX_SEEK
+-o
+/home/mpas/Desktop/Source/PV/build/Qt/Python/moc_pqPythonSyntaxHighlighter.cxx
+/home/mpas/Desktop/Source/PV/ParaView/Qt/Python/pqPythonSyntaxHighlighter.h

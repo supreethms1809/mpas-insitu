@@ -1,0 +1,11 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtk3DSImporterPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImporterPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkVRMLImporterPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkIOImportPythonInitImpl.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtk3DSImporterPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImporterPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkVRMLImporterPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkIOImportPythonInit.cxx.rule

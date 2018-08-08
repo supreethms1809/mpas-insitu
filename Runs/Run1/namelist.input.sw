@@ -1,0 +1,1 @@
+/home/mpas/Desktop/Source/MPAS/namelist.input.sw

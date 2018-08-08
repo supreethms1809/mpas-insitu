@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOMoviePython-pv4.3.a  CMakeFiles/vtkIOMoviePython.dir/vtkIOMoviePythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOMoviePython-pv4.3.a

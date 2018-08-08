@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkCommonTransformsPython-pv4.3.a  CMakeFiles/vtkCommonTransformsPython.dir/vtkCommonTransformsPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkCommonTransformsPython-pv4.3.a

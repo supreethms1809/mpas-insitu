@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkRenderingFreeTypeOpenGL-pv4.3.a  CMakeFiles/vtkRenderingFreeTypeOpenGL.dir/vtkOpenGLFreeTypeTextMapper.cxx.o CMakeFiles/vtkRenderingFreeTypeOpenGL.dir/vtkRenderingFreeTypeOpenGLObjectFactory.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkRenderingFreeTypeOpenGL-pv4.3.a

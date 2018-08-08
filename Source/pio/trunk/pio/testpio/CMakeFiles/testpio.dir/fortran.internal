@@ -1,0 +1,7 @@
+# The fortran modules provided by this target.
+provides
+ check_mod
+ gdecomp_mod
+ kinds_mod
+ namelist_mod
+ utils_mod

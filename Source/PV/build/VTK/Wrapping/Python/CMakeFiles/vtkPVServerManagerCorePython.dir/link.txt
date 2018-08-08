@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkPVServerManagerCorePython-pv4.3.a  CMakeFiles/vtkPVServerManagerCorePython.dir/vtkPVServerManagerCorePythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkPVServerManagerCorePython-pv4.3.a

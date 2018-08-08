@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkRenderingLabelPython-pv4.3.a  CMakeFiles/vtkRenderingLabelPython.dir/vtkRenderingLabelPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkRenderingLabelPython-pv4.3.a

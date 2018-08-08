@@ -1,0 +1,2 @@
+/usr/bin/ar cr lib/libvtkPVStaticPluginsInit.a  CMakeFiles/vtkPVStaticPluginsInit.dir/pvStaticPluginsInit.cxx.o
+/usr/bin/ranlib lib/libvtkPVStaticPluginsInit.a

@@ -1,0 +1,5 @@
+# Target labels
+ vtkPVPythonCatalyst
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/vtkPVPythonCatalystPythonInit.cxx
+/home/mpas/Desktop/Source/PV/build/vtkPVPythonCatalystPythonInit.cxx.rule

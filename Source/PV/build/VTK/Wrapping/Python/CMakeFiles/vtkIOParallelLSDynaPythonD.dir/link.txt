@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOParallelLSDynaPython27D-pv4.3.a  CMakeFiles/vtkIOParallelLSDynaPythonD.dir/vtkPLSDynaReaderPython.cxx.o CMakeFiles/vtkIOParallelLSDynaPythonD.dir/vtkIOParallelLSDynaPythonInitImpl.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOParallelLSDynaPython27D-pv4.3.a

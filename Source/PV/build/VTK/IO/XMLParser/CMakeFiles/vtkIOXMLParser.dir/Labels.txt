@@ -1,0 +1,12 @@
+# Target labels
+ vtkIOXMLParser
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/XMLParser/vtkXMLDataParser.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/XMLParser/vtkXMLParser.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/XMLParser/vtkXMLUtilities.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/XMLParser/vtkXMLDataParser.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/XMLParser/vtkXMLParser.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/XMLParser/vtkXMLUtilities.h
+/home/mpas/Desktop/Source/PV/build/VTK/IO/XMLParser/vtkIOXMLParserModule.h
+/home/mpas/Desktop/Source/PV/build/VTK/IO/XMLParser/vtkIOXMLParserHierarchy.stamp.txt
+/home/mpas/Desktop/Source/PV/build/VTK/IO/XMLParser/vtkIOXMLParserHierarchy.stamp.txt.rule

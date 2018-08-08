@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../lib/libRGBZView.a  CMakeFiles/RGBZView.dir/vtkPVRenderViewForAssembly.cxx.o CMakeFiles/RGBZView.dir/vtkPVRenderViewForAssemblyClientServer.cxx.o CMakeFiles/RGBZView.dir/RGBZViewInit.cxx.o CMakeFiles/RGBZView.dir/RGBZView_Plugin.cxx.o
+/usr/bin/ranlib ../../lib/libRGBZView.a

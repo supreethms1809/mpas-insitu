@@ -1,0 +1,10 @@
+# Target labels
+ vtkCommonColor
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Common/Color/vtkColorSeries.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Common/Color/vtkNamedColors.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Common/Color/vtkColorSeries.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Common/Color/vtkNamedColors.h
+/home/mpas/Desktop/Source/PV/build/VTK/Common/Color/vtkCommonColorModule.h
+/home/mpas/Desktop/Source/PV/build/VTK/Common/Color/vtkCommonColorHierarchy.stamp.txt
+/home/mpas/Desktop/Source/PV/build/VTK/Common/Color/vtkCommonColorHierarchy.stamp.txt.rule

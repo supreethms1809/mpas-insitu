@@ -1,0 +1,16 @@
+# Target labels
+ vtkWebCore
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Web/Core/vtkDataEncoder.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Web/Core/vtkWebApplication.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Web/Core/vtkWebInteractionEvent.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Web/Core/vtkWebUtilities.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Web/Core/vtkObjectIdMap.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Web/Core/vtkDataEncoder.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Web/Core/vtkWebApplication.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Web/Core/vtkWebInteractionEvent.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Web/Core/vtkWebUtilities.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Web/Core/vtkObjectIdMap.h
+/home/mpas/Desktop/Source/PV/build/VTK/Web/Core/vtkWebCoreModule.h
+/home/mpas/Desktop/Source/PV/build/VTK/Web/Core/vtkWebCoreHierarchy.stamp.txt
+/home/mpas/Desktop/Source/PV/build/VTK/Web/Core/vtkWebCoreHierarchy.stamp.txt.rule

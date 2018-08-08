@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkFiltersPython-pv4.3.a  CMakeFiles/vtkFiltersPython.dir/vtkPythonAlgorithm.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkFiltersPython-pv4.3.a

@@ -1,0 +1,8 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkContextViewClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkContextInteractorStyleClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkViewsContext2DCSInit.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Views/Context2D/vtkContextView.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Views/Context2D/vtkContextInteractorStyle.h

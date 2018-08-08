@@ -1,0 +1,29 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkXMLPDataSetWriterPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkXMLPDataWriterPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkXMLPImageDataWriterPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkXMLPPolyDataWriterPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkXMLPRectilinearGridWriterPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkXMLPStructuredDataWriterPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkXMLPStructuredGridWriterPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkXMLPUnstructuredDataWriterPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkXMLPUnstructuredGridWriterPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkXMLPHierarchicalBoxDataWriterPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkXMLPMultiBlockDataWriterPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkXMLPUniformGridAMRWriterPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkIOParallelXMLPythonInitImpl.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkXMLPDataSetWriterPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkXMLPDataWriterPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkXMLPImageDataWriterPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkXMLPPolyDataWriterPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkXMLPRectilinearGridWriterPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkXMLPStructuredDataWriterPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkXMLPStructuredGridWriterPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkXMLPUnstructuredDataWriterPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkXMLPUnstructuredGridWriterPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkXMLPHierarchicalBoxDataWriterPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkXMLPMultiBlockDataWriterPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkXMLPUniformGridAMRWriterPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkIOParallelXMLPythonInit.cxx.rule

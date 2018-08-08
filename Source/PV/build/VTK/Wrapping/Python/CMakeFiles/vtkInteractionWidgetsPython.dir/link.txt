@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkInteractionWidgetsPython-pv4.3.a  CMakeFiles/vtkInteractionWidgetsPython.dir/vtkInteractionWidgetsPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkInteractionWidgetsPython-pv4.3.a

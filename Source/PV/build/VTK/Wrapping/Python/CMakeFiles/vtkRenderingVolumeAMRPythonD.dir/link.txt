@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkRenderingVolumeAMRPython27D-pv4.3.a  CMakeFiles/vtkRenderingVolumeAMRPythonD.dir/vtkAMRVolumeMapperPython.cxx.o CMakeFiles/vtkRenderingVolumeAMRPythonD.dir/vtkRenderingVolumeAMRPythonInitImpl.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkRenderingVolumeAMRPython27D-pv4.3.a

@@ -1,0 +1,23 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageButterworthHighPassPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageButterworthLowPassPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageFFTPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageFourierCenterPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageFourierFilterPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageIdealHighPassPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageIdealLowPassPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageRFFTPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkTableFFTPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImagingFourierPythonInitImpl.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageButterworthHighPassPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageButterworthLowPassPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageFFTPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageFourierCenterPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageFourierFilterPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageIdealHighPassPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageIdealLowPassPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageRFFTPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkTableFFTPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImagingFourierPythonInit.cxx.rule

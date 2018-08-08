@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOLSDyna-pv4.3.a  CMakeFiles/vtkIOLSDyna.dir/vtkLSDynaPart.cxx.o CMakeFiles/vtkIOLSDyna.dir/vtkLSDynaPartCollection.cxx.o CMakeFiles/vtkIOLSDyna.dir/vtkLSDynaReader.cxx.o CMakeFiles/vtkIOLSDyna.dir/vtkLSDynaSummaryParser.cxx.o CMakeFiles/vtkIOLSDyna.dir/private/LSDynaFamily.cxx.o CMakeFiles/vtkIOLSDyna.dir/private/LSDynaMetaData.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOLSDyna-pv4.3.a

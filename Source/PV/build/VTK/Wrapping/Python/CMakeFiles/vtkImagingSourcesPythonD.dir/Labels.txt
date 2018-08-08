@@ -1,0 +1,19 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageCanvasSource2DPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageEllipsoidSourcePython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageGaussianSourcePython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageGridSourcePython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageMandelbrotSourcePython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageNoiseSourcePython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageSinusoidSourcePython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImagingSourcesPythonInitImpl.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageCanvasSource2DPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageEllipsoidSourcePython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageGaussianSourcePython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageGridSourcePython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageMandelbrotSourcePython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageNoiseSourcePython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageSinusoidSourcePython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImagingSourcesPythonInit.cxx.rule

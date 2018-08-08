@@ -1,0 +1,42 @@
+FILE(REMOVE_RECURSE
+  "vtkAbstractContextBufferIdPython.cxx"
+  "vtkAbstractContextItemPython.cxx"
+  "vtkBlockItemPython.cxx"
+  "vtkBrushPython.cxx"
+  "vtkContext2DPython.cxx"
+  "vtkContextActorPython.cxx"
+  "vtkContextClipPython.cxx"
+  "vtkContextItemPython.cxx"
+  "vtkContextMapper2DPython.cxx"
+  "vtkContextScenePython.cxx"
+  "vtkContextTransformPython.cxx"
+  "vtkImageItemPython.cxx"
+  "vtkMarkerUtilitiesPython.cxx"
+  "vtkPenPython.cxx"
+  "vtkTooltipItemPython.cxx"
+  "vtkRenderingContext2DPythonInit.cxx"
+  "vtkRenderingContext2DPythonInitImpl.cxx"
+  "CMakeFiles/vtkRenderingContext2DPythonD.dir/vtkAbstractContextBufferIdPython.cxx.o"
+  "CMakeFiles/vtkRenderingContext2DPythonD.dir/vtkAbstractContextItemPython.cxx.o"
+  "CMakeFiles/vtkRenderingContext2DPythonD.dir/vtkBlockItemPython.cxx.o"
+  "CMakeFiles/vtkRenderingContext2DPythonD.dir/vtkBrushPython.cxx.o"
+  "CMakeFiles/vtkRenderingContext2DPythonD.dir/vtkContext2DPython.cxx.o"
+  "CMakeFiles/vtkRenderingContext2DPythonD.dir/vtkContextActorPython.cxx.o"
+  "CMakeFiles/vtkRenderingContext2DPythonD.dir/vtkContextClipPython.cxx.o"
+  "CMakeFiles/vtkRenderingContext2DPythonD.dir/vtkContextItemPython.cxx.o"
+  "CMakeFiles/vtkRenderingContext2DPythonD.dir/vtkContextMapper2DPython.cxx.o"
+  "CMakeFiles/vtkRenderingContext2DPythonD.dir/vtkContextScenePython.cxx.o"
+  "CMakeFiles/vtkRenderingContext2DPythonD.dir/vtkContextTransformPython.cxx.o"
+  "CMakeFiles/vtkRenderingContext2DPythonD.dir/vtkImageItemPython.cxx.o"
+  "CMakeFiles/vtkRenderingContext2DPythonD.dir/vtkMarkerUtilitiesPython.cxx.o"
+  "CMakeFiles/vtkRenderingContext2DPythonD.dir/vtkPenPython.cxx.o"
+  "CMakeFiles/vtkRenderingContext2DPythonD.dir/vtkTooltipItemPython.cxx.o"
+  "CMakeFiles/vtkRenderingContext2DPythonD.dir/vtkRenderingContext2DPythonInitImpl.cxx.o"
+  "../../../lib/libvtkRenderingContext2DPython27D-pv4.3.pdb"
+  "../../../lib/libvtkRenderingContext2DPython27D-pv4.3.a"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang CXX)
+  INCLUDE(CMakeFiles/vtkRenderingContext2DPythonD.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

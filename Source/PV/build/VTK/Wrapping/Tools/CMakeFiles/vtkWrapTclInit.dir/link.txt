@@ -1,0 +1,1 @@
+/usr/bin/mpicc  -fPIC  -Os -DNDEBUG  -Wl,--fatal-warnings -Wl,--no-undefined -lc -Wl,--fatal-warnings -Wl,--no-undefined -lc    CMakeFiles/vtkWrapTclInit.dir/vtkWrapTclInit.c.o  -o ../../../bin/vtkWrapTclInit-pv4.3 -rdynamic 

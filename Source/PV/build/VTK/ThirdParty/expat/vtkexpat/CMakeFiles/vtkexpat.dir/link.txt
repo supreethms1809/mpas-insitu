@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../../lib/libvtkexpat-pv4.3.a  CMakeFiles/vtkexpat.dir/xmlparse.c.o CMakeFiles/vtkexpat.dir/xmltok.c.o CMakeFiles/vtkexpat.dir/xmlrole.c.o
+/usr/bin/ranlib ../../../../lib/libvtkexpat-pv4.3.a

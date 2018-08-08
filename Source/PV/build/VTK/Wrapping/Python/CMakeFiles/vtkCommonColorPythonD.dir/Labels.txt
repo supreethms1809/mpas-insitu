@@ -1,0 +1,9 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkColorSeriesPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkNamedColorsPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkCommonColorPythonInitImpl.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkColorSeriesPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkNamedColorsPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkCommonColorPythonInit.cxx.rule

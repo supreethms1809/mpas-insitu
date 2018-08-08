@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOXdmf2Python-pv4.3.a  CMakeFiles/vtkIOXdmf2Python.dir/vtkIOXdmf2PythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOXdmf2Python-pv4.3.a

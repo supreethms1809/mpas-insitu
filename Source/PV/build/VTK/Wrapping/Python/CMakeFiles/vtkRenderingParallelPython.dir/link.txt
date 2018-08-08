@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkRenderingParallelPython-pv4.3.a  CMakeFiles/vtkRenderingParallelPython.dir/vtkRenderingParallelPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkRenderingParallelPython-pv4.3.a

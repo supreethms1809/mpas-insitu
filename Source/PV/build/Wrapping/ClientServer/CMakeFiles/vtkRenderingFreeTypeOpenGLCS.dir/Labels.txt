@@ -1,0 +1,6 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkOpenGLFreeTypeTextMapperClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkRenderingFreeTypeOpenGLCSInit.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/FreeTypeOpenGL/vtkOpenGLFreeTypeTextMapper.h

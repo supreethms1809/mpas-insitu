@@ -1,0 +1,19 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkEnSightWriterPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPChacoReaderPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPDataSetReaderPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPDataSetWriterPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPImageWriterPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPOpenFOAMReaderPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPSLACReaderPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkIOParallelPythonInitImpl.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkEnSightWriterPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPChacoReaderPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPDataSetReaderPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPDataSetWriterPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPImageWriterPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPOpenFOAMReaderPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPSLACReaderPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkIOParallelPythonInit.cxx.rule

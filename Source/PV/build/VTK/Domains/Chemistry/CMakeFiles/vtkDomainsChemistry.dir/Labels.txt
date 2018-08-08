@@ -1,0 +1,30 @@
+# Target labels
+ vtkDomainsChemistry
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkBlueObeliskData.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkBlueObeliskDataParser.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkCMLMoleculeReader.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkMoleculeAlgorithm.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkMoleculeMapper.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkMoleculeToAtomBallFilter.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkMoleculeToBondStickFilter.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkMoleculeToPolyDataFilter.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkPeriodicTable.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkProgrammableElectronicData.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkProteinRibbonFilter.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkSimpleBondPerceiver.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkBlueObeliskData.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkBlueObeliskDataParser.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkCMLMoleculeReader.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkMoleculeAlgorithm.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkMoleculeMapper.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkMoleculeToAtomBallFilter.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkMoleculeToBondStickFilter.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkMoleculeToPolyDataFilter.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkPeriodicTable.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkProgrammableElectronicData.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkProteinRibbonFilter.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Domains/Chemistry/vtkSimpleBondPerceiver.h
+/home/mpas/Desktop/Source/PV/build/VTK/Domains/Chemistry/vtkDomainsChemistryModule.h
+/home/mpas/Desktop/Source/PV/build/VTK/Domains/Chemistry/vtkDomainsChemistryHierarchy.stamp.txt
+/home/mpas/Desktop/Source/PV/build/VTK/Domains/Chemistry/vtkDomainsChemistryHierarchy.stamp.txt.rule

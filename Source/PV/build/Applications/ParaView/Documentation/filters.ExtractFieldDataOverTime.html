@@ -1,0 +1,43 @@
+
+<html>
+    <head>
+        <title>Plot Global Variables Over Time</title>
+        <meta name="proxy_name" contents="filters.ExtractFieldDataOverTime"/>
+        <meta name="filename" contents="filters.ExtractFieldDataOverTime.html"/>
+    </head>
+    <body>
+        <h2>Plot Global Variables Over Time (ExtractFieldDataOverTime)</h2>
+        <i>
+            <p>Extracts and plots data in field data over time.</p>
+        </i>
+        <div class="description">
+                     This filter extracts the variables that reside in a
+                     dataset's field data and are defined over time. The output
+                     is a 1D rectilinear grid where the x coordinates
+                     correspond to time (the same array is also copied to a
+                     point array named Time or TimeData (if Time exists in the
+                     input)).</div>
+        <table width="97%" border="2px">
+            <tr bgcolor="#9acd32">
+                <th>Property</th>
+                <th width="60%">Description</th>
+                <th width="5%">Default(s)</th>
+                <th width="20%">Restrictions</th>
+            </tr>
+            <tr>
+                <th>Input</th>
+                <td>The input from which the selection is
+        extracted.</td>
+                <td>
+                    <span/>
+                </td>
+                <td>
+                    <p>Accepts input of following types:<ul>
+                            <li>vtkDataSet</li>
+                        </ul>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

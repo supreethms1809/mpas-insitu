@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOAMR-pv4.3.a  CMakeFiles/vtkIOAMR.dir/vtkAMRDataSetCache.cxx.o CMakeFiles/vtkIOAMR.dir/vtkAMRBaseParticlesReader.cxx.o CMakeFiles/vtkIOAMR.dir/vtkAMRBaseReader.cxx.o CMakeFiles/vtkIOAMR.dir/vtkAMREnzoParticlesReader.cxx.o CMakeFiles/vtkIOAMR.dir/vtkAMREnzoReader.cxx.o CMakeFiles/vtkIOAMR.dir/vtkAMREnzoReaderInternal.cxx.o CMakeFiles/vtkIOAMR.dir/vtkAMRFlashParticlesReader.cxx.o CMakeFiles/vtkIOAMR.dir/vtkAMRFlashReader.cxx.o CMakeFiles/vtkIOAMR.dir/vtkAMRFlashReaderInternal.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOAMR-pv4.3.a

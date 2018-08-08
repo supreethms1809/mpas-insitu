@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOParallelNetCDF-pv4.3.a  CMakeFiles/vtkIOParallelNetCDF.dir/vtkPNetCDFPOPReader.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOParallelNetCDF-pv4.3.a

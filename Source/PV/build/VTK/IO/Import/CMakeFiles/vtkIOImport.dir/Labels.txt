@@ -1,0 +1,12 @@
+# Target labels
+ vtkIOImport
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Import/vtk3DSImporter.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Import/vtkImporter.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Import/vtkVRMLImporter.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Import/vtk3DSImporter.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Import/vtkImporter.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Import/vtkVRMLImporter.h
+/home/mpas/Desktop/Source/PV/build/VTK/IO/Import/vtkIOImportModule.h
+/home/mpas/Desktop/Source/PV/build/VTK/IO/Import/vtkIOImportHierarchy.stamp.txt
+/home/mpas/Desktop/Source/PV/build/VTK/IO/Import/vtkIOImportHierarchy.stamp.txt.rule

@@ -1,0 +1,7 @@
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/LSDyna/vtkLSDynaPart.h;vtkIOLSDyna;WRAP_EXCLUDE
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/LSDyna/vtkLSDynaPartCollection.h;vtkIOLSDyna;WRAP_EXCLUDE
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/LSDyna/vtkLSDynaReader.h;vtkIOLSDyna
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/LSDyna/vtkLSDynaSummaryParser.h;vtkIOLSDyna
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/LSDyna/private/LSDynaFamily.h;vtkIOLSDyna;WRAP_EXCLUDE
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/LSDyna/private/LSDynaMetaData.h;vtkIOLSDyna;WRAP_EXCLUDE
+

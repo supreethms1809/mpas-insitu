@@ -1,0 +1,84 @@
+
+<html>
+    <head>
+        <title>Programmable Source</title>
+        <meta name="proxy_name" contents="sources.ProgrammableSource"/>
+        <meta name="filename" contents="sources.ProgrammableSource.html"/>
+    </head>
+    <body>
+        <h2>Programmable Source (ProgrammableSource)</h2>
+        <i>
+            <p>Executes a user supplied python script to produce an output dataset.</p>
+        </i>
+        <div class="description">
+                     This source will execute a python script to produce an
+                     output dataset. The source keeps a copy of the python
+                     script in Script, and creates Interpretor, a python
+                     interpretor to run the script upon the first
+                     execution.</div>
+        <table width="97%" border="2px">
+            <tr bgcolor="#9acd32">
+                <th>Property</th>
+                <th width="60%">Description</th>
+                <th width="5%">Default(s)</th>
+                <th width="20%">Restrictions</th>
+            </tr>
+            <tr>
+                <th>OutputDataSetType</th>
+                <td>The value of this property determines the dataset type
+        for the output of the programmable source.</td>
+                <td>0<span/>
+                </td>
+                <td>
+                    <p>The value(s) is an enumeration of the following:<ul>
+                            <li>vtkPolyData (0)</li>
+                            <li>vtkStructuredGrid (2)</li>
+                            <li>vtkRectilinearGrid (3)</li>
+                            <li>vtkUnstructuredGrid (4)</li>
+                            <li>vtkImageData (6)</li>
+                            <li>vtkMultiblockDataSet (13)</li>
+                            <li>vtkHierarchicalBoxDataSet (15)</li>
+                            <li>vtkTable (19)</li>
+                        </ul>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <th>Script</th>
+                <td>This property contains the text of a python program that
+        the programmable source runs.</td>
+                <td>
+                    <span/>
+                </td>
+                <td/>
+            </tr>
+            <tr>
+                <th>Script (RequestInformation)</th>
+                <td>This property is a python script that is executed during
+        the RequestInformation pipeline pass. Use this to provide information
+        such as WHOLE_EXTENT to the pipeline downstream.</td>
+                <td>
+                    <span/>
+                </td>
+                <td/>
+            </tr>
+            <tr>
+                <th>Parameters</th>
+                <td/>
+                <td>
+                    <span/>
+                </td>
+                <td/>
+            </tr>
+            <tr>
+                <th>PythonPath</th>
+                <td>A semi-colon (;) separated list of directories to add to
+        the python library search path.</td>
+                <td>
+                    <span/>
+                </td>
+                <td/>
+            </tr>
+        </table>
+    </body>
+</html>

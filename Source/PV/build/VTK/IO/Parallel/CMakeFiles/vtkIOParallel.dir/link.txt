@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOParallel-pv4.3.a  CMakeFiles/vtkIOParallel.dir/vtkEnSightWriter.cxx.o CMakeFiles/vtkIOParallel.dir/vtkPChacoReader.cxx.o CMakeFiles/vtkIOParallel.dir/vtkPDataSetReader.cxx.o CMakeFiles/vtkIOParallel.dir/vtkPDataSetWriter.cxx.o CMakeFiles/vtkIOParallel.dir/vtkPImageWriter.cxx.o CMakeFiles/vtkIOParallel.dir/vtkPOpenFOAMReader.cxx.o CMakeFiles/vtkIOParallel.dir/vtkPSLACReader.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOParallel-pv4.3.a

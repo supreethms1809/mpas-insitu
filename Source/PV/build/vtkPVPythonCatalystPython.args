@@ -1,0 +1,4 @@
+-I"/home/mpas/Desktop/Source/PV/build/CoProcessing/PythonCatalyst/"
+-I"/home/mpas/Desktop/Source/PV/ParaView/CoProcessing/PythonCatalyst/"
+--hints "/home/mpas/Desktop/Source/PV/ParaView/VTK/Wrapping/Tools/hints"
+

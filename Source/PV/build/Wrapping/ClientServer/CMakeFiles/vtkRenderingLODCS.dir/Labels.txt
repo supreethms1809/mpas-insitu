@@ -1,0 +1,8 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkLODActorClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkQuadricLODActorClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkRenderingLODCSInit.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/LOD/vtkLODActor.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/LOD/vtkQuadricLODActor.h

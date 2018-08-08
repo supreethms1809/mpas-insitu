@@ -1,0 +1,24 @@
+# Target labels
+ vtkImagingFourier
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Imaging/Fourier/vtkImageButterworthHighPass.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Imaging/Fourier/vtkImageButterworthLowPass.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Imaging/Fourier/vtkImageFFT.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Imaging/Fourier/vtkImageFourierCenter.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Imaging/Fourier/vtkImageFourierFilter.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Imaging/Fourier/vtkImageIdealHighPass.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Imaging/Fourier/vtkImageIdealLowPass.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Imaging/Fourier/vtkImageRFFT.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Imaging/Fourier/vtkTableFFT.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Imaging/Fourier/vtkImageButterworthHighPass.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Imaging/Fourier/vtkImageButterworthLowPass.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Imaging/Fourier/vtkImageFFT.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Imaging/Fourier/vtkImageFourierCenter.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Imaging/Fourier/vtkImageFourierFilter.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Imaging/Fourier/vtkImageIdealHighPass.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Imaging/Fourier/vtkImageIdealLowPass.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Imaging/Fourier/vtkImageRFFT.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Imaging/Fourier/vtkTableFFT.h
+/home/mpas/Desktop/Source/PV/build/VTK/Imaging/Fourier/vtkImagingFourierModule.h
+/home/mpas/Desktop/Source/PV/build/VTK/Imaging/Fourier/vtkImagingFourierHierarchy.stamp.txt
+/home/mpas/Desktop/Source/PV/build/VTK/Imaging/Fourier/vtkImagingFourierHierarchy.stamp.txt.rule

@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIONetCDF-pv4.3.a  CMakeFiles/vtkIONetCDF.dir/vtkMPASReader.cxx.o CMakeFiles/vtkIONetCDF.dir/vtkNetCDFCAMReader.cxx.o CMakeFiles/vtkIONetCDF.dir/vtkNetCDFCFReader.cxx.o CMakeFiles/vtkIONetCDF.dir/vtkNetCDFPOPReader.cxx.o CMakeFiles/vtkIONetCDF.dir/vtkNetCDFReader.cxx.o CMakeFiles/vtkIONetCDF.dir/vtkSLACParticleReader.cxx.o CMakeFiles/vtkIONetCDF.dir/vtkSLACReader.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIONetCDF-pv4.3.a

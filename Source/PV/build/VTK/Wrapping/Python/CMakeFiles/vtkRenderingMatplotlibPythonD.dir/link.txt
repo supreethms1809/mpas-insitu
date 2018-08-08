@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkRenderingMatplotlibPython27D-pv4.3.a  CMakeFiles/vtkRenderingMatplotlibPythonD.dir/vtkMatplotlibMathTextUtilitiesPython.cxx.o CMakeFiles/vtkRenderingMatplotlibPythonD.dir/vtkRenderingMatplotlibPythonInitImpl.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkRenderingMatplotlibPython27D-pv4.3.a

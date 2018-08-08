@@ -1,0 +1,8 @@
+# Target labels
+ vtkFiltersPython
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Filters/Python/vtkPythonAlgorithm.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Filters/Python/vtkPythonAlgorithm.h
+/home/mpas/Desktop/Source/PV/build/VTK/Filters/Python/vtkFiltersPythonModule.h
+/home/mpas/Desktop/Source/PV/build/VTK/Filters/Python/vtkFiltersPythonHierarchy.stamp.txt
+/home/mpas/Desktop/Source/PV/build/VTK/Filters/Python/vtkFiltersPythonHierarchy.stamp.txt.rule

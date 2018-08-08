@@ -1,0 +1,15 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkDataEncoderPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkWebApplicationPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkWebInteractionEventPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkWebUtilitiesPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkObjectIdMapPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkWebCorePythonInitImpl.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkDataEncoderPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkWebApplicationPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkWebInteractionEventPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkWebUtilitiesPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkObjectIdMapPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkWebCorePythonInit.cxx.rule

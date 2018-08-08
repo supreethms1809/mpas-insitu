@@ -1,0 +1,31 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkLabeledDataMapperPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkLabeledTreeMapDataMapperPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkLabelHierarchyAlgorithmPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkLabelHierarchyCompositeIteratorPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkLabelHierarchyPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkLabelHierarchyIteratorPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkLabelPlacementMapperPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkLabelPlacerPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkLabelRenderStrategyPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkLabelSizeCalculatorPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkFreeTypeLabelRenderStrategyPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkDynamic2DLabelMapperPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPointSetToLabelHierarchyPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkRenderingLabelPythonInitImpl.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkLabeledDataMapperPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkLabeledTreeMapDataMapperPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkLabelHierarchyAlgorithmPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkLabelHierarchyCompositeIteratorPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkLabelHierarchyPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkLabelHierarchyIteratorPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkLabelPlacementMapperPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkLabelPlacerPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkLabelRenderStrategyPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkLabelSizeCalculatorPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkFreeTypeLabelRenderStrategyPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkDynamic2DLabelMapperPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPointSetToLabelHierarchyPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkRenderingLabelPythonInit.cxx.rule

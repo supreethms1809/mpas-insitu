@@ -1,0 +1,1 @@
+/usr/bin/mpicc  -fPIC -fPIC  -w -Os -DNDEBUG -Wl,--fatal-warnings -Wl,--no-undefined -lc -Wl,--fatal-warnings -Wl,--no-undefined -lc    -shared -Wl,-soname,dl.so -o ../../../../lib/site-packages/mpi4py/dl.so CMakeFiles/mpi4py.dl.dir/src/dynload.c.o -lpython2.7 -ldl 

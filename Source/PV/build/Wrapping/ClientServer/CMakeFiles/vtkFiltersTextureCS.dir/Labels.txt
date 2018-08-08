@@ -1,0 +1,18 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkTextureMapToCylinderClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkTextureMapToPlaneClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkTextureMapToSphereClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkImplicitTextureCoordsClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkThresholdTextureCoordsClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkTransformTextureCoordsClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkTriangularTCoordsClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkFiltersTextureCSInit.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Filters/Texture/vtkTextureMapToCylinder.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Filters/Texture/vtkTextureMapToPlane.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Filters/Texture/vtkTextureMapToSphere.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Filters/Texture/vtkImplicitTextureCoords.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Filters/Texture/vtkThresholdTextureCoords.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Filters/Texture/vtkTransformTextureCoords.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Filters/Texture/vtkTriangularTCoords.h

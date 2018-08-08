@@ -1,0 +1,1 @@
+/usr/bin/mpicc  -fPIC -fPIC  -w -Os -DNDEBUG -Wl,--fatal-warnings -Wl,--no-undefined -lc -Wl,--fatal-warnings -Wl,--no-undefined -lc    -shared -Wl,-soname,libvt-hyb.so -o ../../../../lib/site-packages/mpi4py/lib-pmpi/libvt-hyb.so CMakeFiles/pmpi-vt-hyb.dir/src/pmpi-vt-hyb.c.o -lmpi -ldl -lhwloc 

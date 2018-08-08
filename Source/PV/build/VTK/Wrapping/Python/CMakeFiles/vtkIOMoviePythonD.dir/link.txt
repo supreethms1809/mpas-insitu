@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOMoviePython27D-pv4.3.a  CMakeFiles/vtkIOMoviePythonD.dir/vtkGenericMovieWriterPython.cxx.o CMakeFiles/vtkIOMoviePythonD.dir/vtkOggTheoraWriterPython.cxx.o CMakeFiles/vtkIOMoviePythonD.dir/vtkIOMoviePythonInitImpl.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOMoviePython27D-pv4.3.a

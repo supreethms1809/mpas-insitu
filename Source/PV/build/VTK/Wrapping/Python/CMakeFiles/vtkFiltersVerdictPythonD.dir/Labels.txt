@@ -1,0 +1,11 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkCellQualityPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkMatrixMathFilterPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkMeshQualityPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkFiltersVerdictPythonInitImpl.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkCellQualityPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkMatrixMathFilterPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkMeshQualityPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkFiltersVerdictPythonInit.cxx.rule

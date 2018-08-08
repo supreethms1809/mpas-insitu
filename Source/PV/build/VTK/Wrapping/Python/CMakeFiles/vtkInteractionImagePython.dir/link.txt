@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkInteractionImagePython-pv4.3.a  CMakeFiles/vtkInteractionImagePython.dir/vtkInteractionImagePythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkInteractionImagePython-pv4.3.a

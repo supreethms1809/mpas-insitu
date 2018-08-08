@@ -1,0 +1,6 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkAMRVolumeMapperClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkRenderingVolumeAMRCSInit.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/VolumeAMR/vtkAMRVolumeMapper.h

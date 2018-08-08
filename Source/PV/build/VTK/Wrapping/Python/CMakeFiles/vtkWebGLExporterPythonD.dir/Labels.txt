@@ -1,0 +1,17 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPVWebGLExporterPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkWebGLDataSetPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkWebGLExporterPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkWebGLObjectPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkWebGLPolyDataPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkWebGLWidgetPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkWebGLExporterPythonInitImpl.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPVWebGLExporterPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkWebGLDataSetPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkWebGLExporterPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkWebGLObjectPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkWebGLPolyDataPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkWebGLWidgetPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkWebGLExporterPythonInit.cxx.rule

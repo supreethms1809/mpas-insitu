@@ -1,0 +1,5 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkWebGLExporterPythonInit.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkWebGLExporterPythonInit.cxx.rule

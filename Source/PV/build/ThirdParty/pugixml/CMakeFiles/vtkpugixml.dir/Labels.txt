@@ -1,0 +1,4 @@
+# Target labels
+ vtkpugixml
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/ParaView/ThirdParty/pugixml/pugixml.cxx

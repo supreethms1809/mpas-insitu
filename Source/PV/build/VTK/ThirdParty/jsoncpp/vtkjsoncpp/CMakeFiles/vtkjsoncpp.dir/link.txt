@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../../lib/libvtkjsoncpp-pv4.3.a  CMakeFiles/vtkjsoncpp.dir/json_reader.cpp.o CMakeFiles/vtkjsoncpp.dir/json_value.cpp.o CMakeFiles/vtkjsoncpp.dir/json_writer.cpp.o
+/usr/bin/ranlib ../../../../lib/libvtkjsoncpp-pv4.3.a

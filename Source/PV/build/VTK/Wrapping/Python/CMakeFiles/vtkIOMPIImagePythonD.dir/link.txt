@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOMPIImagePython27D-pv4.3.a  CMakeFiles/vtkIOMPIImagePythonD.dir/vtkPNrrdReaderPython.cxx.o CMakeFiles/vtkIOMPIImagePythonD.dir/vtkMPIImageReaderPython.cxx.o CMakeFiles/vtkIOMPIImagePythonD.dir/vtkIOMPIImagePythonInitImpl.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOMPIImagePython27D-pv4.3.a

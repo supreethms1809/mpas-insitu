@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOXMLParserPython27D-pv4.3.a  CMakeFiles/vtkIOXMLParserPythonD.dir/vtkXMLDataParserPython.cxx.o CMakeFiles/vtkIOXMLParserPythonD.dir/vtkXMLParserPython.cxx.o CMakeFiles/vtkIOXMLParserPythonD.dir/vtkXMLUtilitiesPython.cxx.o CMakeFiles/vtkIOXMLParserPythonD.dir/vtkIOXMLParserPythonInitImpl.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOXMLParserPython27D-pv4.3.a

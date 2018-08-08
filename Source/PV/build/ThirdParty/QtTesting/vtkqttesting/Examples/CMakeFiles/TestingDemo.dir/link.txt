@@ -1,0 +1,1 @@
+/usr/bin/c++   -fPIC  -w -w -Os -DNDEBUG  -Wl,--fatal-warnings -Wl,--no-undefined -lc -Wl,--fatal-warnings -Wl,--no-undefined -lc    CMakeFiles/TestingDemo.dir/TestingDemo.cxx.o CMakeFiles/TestingDemo.dir/moc_TestingDemo.cxx.o  -o ../../../../bin/TestingDemo -rdynamic ../../../../lib/libQtTesting.a -lQtGui -lQtCore 

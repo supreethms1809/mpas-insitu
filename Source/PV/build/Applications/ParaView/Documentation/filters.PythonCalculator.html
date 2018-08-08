@@ -1,0 +1,89 @@
+
+<html>
+    <head>
+        <title>Python Calculator</title>
+        <meta name="proxy_name" contents="filters.PythonCalculator"/>
+        <meta name="filename" contents="filters.PythonCalculator.html"/>
+    </head>
+    <body>
+        <h2>Python Calculator (PythonCalculator)</h2>
+        <i>
+            <p>This filter evaluates a Python expression</p>
+        </i>
+        <div class="description">This filter
+                     uses Python to calculate an expression. It depends heavily
+                     on the numpy and paraview.vtk modules. To use the parallel
+                     functions, mpi4py is also necessary. The expression is
+                     evaluated and the resulting scalar value or numpy array is
+                     added to the output as an array. See numpy and
+                     paraview.vtk documentation for the list of available
+                     functions. This filter tries to make it easy for the user
+                     to write expressions by defining certain variables. The
+                     filter tries to assign each array to a variable of the
+                     same name. If the name of the array is not a valid Python
+                     variable, it has to be accessed through a dictionary
+                     called arrays (i.e. arrays['array_name']). The points can
+                     be accessed using the points variable.</div>
+        <table width="97%" border="2px">
+            <tr bgcolor="#9acd32">
+                <th>Property</th>
+                <th width="60%">Description</th>
+                <th width="5%">Default(s)</th>
+                <th width="20%">Restrictions</th>
+            </tr>
+            <tr>
+                <th>Input</th>
+                <td>Set the input of the filter.</td>
+                <td>
+                    <span/>
+                </td>
+                <td>
+                    <p>Accepts input of following types:<ul>
+                            <li>vtkDataSet</li>
+                        </ul>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <th>Expression</th>
+                <td>The Python expression evaluated during
+        execution.</td>
+                <td>
+                    <span/>
+                </td>
+                <td/>
+            </tr>
+            <tr>
+                <th>ArrayAssociation</th>
+                <td>This property controls the association of the output
+        array as well as which arrays are defined as variables.</td>
+                <td>0<span/>
+                </td>
+                <td>
+                    <p>The value(s) is an enumeration of the following:<ul>
+                            <li>Point Data (0)</li>
+                            <li>Cell Data (1)</li>
+                        </ul>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <th>ArrayName</th>
+                <td>The name of the output array.</td>
+                <td>result<span/>
+                </td>
+                <td/>
+            </tr>
+            <tr>
+                <th>CopyArrays</th>
+                <td>If this property is set to true, all the cell and point
+        arrays from first input are copied to the output.</td>
+                <td>1<span/>
+                </td>
+                <td>
+                    <p>Accepts boolean values (0 or 1).</p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

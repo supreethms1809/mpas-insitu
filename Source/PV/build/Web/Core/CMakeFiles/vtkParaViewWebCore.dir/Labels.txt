@@ -1,0 +1,8 @@
+# Target labels
+ vtkParaViewWebCore
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/ParaView/Web/Core/vtkPVWebApplication.cxx
+/home/mpas/Desktop/Source/PV/ParaView/Web/Core/vtkPVWebApplication.h
+/home/mpas/Desktop/Source/PV/build/Web/Core/vtkParaViewWebCoreModule.h
+/home/mpas/Desktop/Source/PV/build/Web/Core/vtkParaViewWebCoreHierarchy.stamp.txt
+/home/mpas/Desktop/Source/PV/build/Web/Core/vtkParaViewWebCoreHierarchy.stamp.txt.rule

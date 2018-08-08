@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkParallelMPI-pv4.3.a  CMakeFiles/vtkParallelMPI.dir/vtkMPICommunicator.cxx.o CMakeFiles/vtkParallelMPI.dir/vtkMPIController.cxx.o CMakeFiles/vtkParallelMPI.dir/vtkMPIUtilities.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkParallelMPI-pv4.3.a

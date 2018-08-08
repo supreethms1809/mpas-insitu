@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../lib/libvtkClientServer-pv4.3.a  CMakeFiles/vtkClientServer.dir/vtkClientServerID.cxx.o CMakeFiles/vtkClientServer.dir/vtkClientServerInterpreter.cxx.o CMakeFiles/vtkClientServer.dir/vtkClientServerStream.cxx.o CMakeFiles/vtkClientServer.dir/vtkClientServerInterpreterNoImpl.cxx.o
+/usr/bin/ranlib ../../lib/libvtkClientServer-pv4.3.a

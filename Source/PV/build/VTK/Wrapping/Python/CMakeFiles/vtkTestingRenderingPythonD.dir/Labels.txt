@@ -1,0 +1,11 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkTestingPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkTestingInteractorPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkTestingObjectFactoryPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkTestingRenderingPythonInitImpl.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkTestingPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkTestingInteractorPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkTestingObjectFactoryPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkTestingRenderingPythonInit.cxx.rule

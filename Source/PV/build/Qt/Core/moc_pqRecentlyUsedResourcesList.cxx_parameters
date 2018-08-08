@@ -1,0 +1,15 @@
+-I/home/mpas/Desktop/Source/PV/build
+-I/usr/include/qt4
+-I/usr/include/qt4/QtUiTools
+-I/usr/include/qt4/QtGui
+-I/usr/include/qt4/QtXml
+-I/usr/include/qt4/QtCore
+-DVTK_IN_VTK
+-DMPICH_IGNORE_CXX_SEEK
+-DQT_UITOOLS_LIB
+-DQT_GUI_LIB
+-DQT_XML_LIB
+-DQT_CORE_LIB
+-o
+/home/mpas/Desktop/Source/PV/build/Qt/Core/moc_pqRecentlyUsedResourcesList.cxx
+/home/mpas/Desktop/Source/PV/ParaView/Qt/Core/pqRecentlyUsedResourcesList.h

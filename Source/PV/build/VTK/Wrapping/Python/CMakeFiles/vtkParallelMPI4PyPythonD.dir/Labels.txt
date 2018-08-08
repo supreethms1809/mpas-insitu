@@ -1,0 +1,7 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkMPI4PyCommunicatorPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkParallelMPI4PyPythonInitImpl.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkMPI4PyCommunicatorPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkParallelMPI4PyPythonInit.cxx.rule

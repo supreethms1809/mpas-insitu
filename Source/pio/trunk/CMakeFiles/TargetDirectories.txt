@@ -1,0 +1,3 @@
+/home/mpas/Desktop/Source/pio/trunk/pio/CMakeFiles/pio.dir
+/home/mpas/Desktop/Source/pio/trunk/pio/unittests/CMakeFiles/piotest.dir
+/home/mpas/Desktop/Source/pio/trunk/pio/testpio/CMakeFiles/testpio.dir

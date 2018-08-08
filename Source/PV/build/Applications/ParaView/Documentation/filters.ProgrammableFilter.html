@@ -1,0 +1,120 @@
+
+<html>
+    <head>
+        <title>Programmable Filter</title>
+        <meta name="proxy_name" contents="filters.ProgrammableFilter"/>
+        <meta name="filename" contents="filters.ProgrammableFilter.html"/>
+    </head>
+    <body>
+        <h2>Programmable Filter (ProgrammableFilter)</h2>
+        <i>
+            <p>Executes a user supplied python script on its input dataset to produce an output dataset.</p>
+        </i>
+        <div class="description">
+                     This filter will execute a python script to produce an
+                     output dataset. The filter keeps a copy of the python
+                     script in Script, and creates Interpretor, a python
+                     interpretor to run the script upon the first
+                     execution.</div>
+        <table width="97%" border="2px">
+            <tr bgcolor="#9acd32">
+                <th>Property</th>
+                <th width="60%">Description</th>
+                <th width="5%">Default(s)</th>
+                <th width="20%">Restrictions</th>
+            </tr>
+            <tr>
+                <th>Input</th>
+                <td>This property specifies the input(s) to the programmable
+        filter.</td>
+                <td>
+                    <span/>
+                </td>
+                <td>
+                    <p>Accepts input of following types:<ul>
+                            <li>vtkDataObject</li>
+                        </ul>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <th>OutputDataSetType</th>
+                <td>The value of this property determines the dataset type
+        for the output of the programmable filter.</td>
+                <td>8<span/>
+                </td>
+                <td>
+                    <p>The value(s) is an enumeration of the following:<ul>
+                            <li>Same as Input (8)</li>
+                            <li>vtkPolyData (0)</li>
+                            <li>vtkStructuredGrid (2)</li>
+                            <li>vtkRectilinearGrid (3)</li>
+                            <li>vtkUnstructuredGrid (4)</li>
+                            <li>vtkImageData (6)</li>
+                            <li>vtkUniformGrid (10)</li>
+                            <li>vtkMultiblockDataSet (13)</li>
+                            <li>vtkHierarchicalBoxDataSet (15)</li>
+                            <li>vtkTable (19)</li>
+                        </ul>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <th>Script</th>
+                <td>This property contains the text of a python program that
+        the programmable filter runs.</td>
+                <td>
+                    <span/>
+                </td>
+                <td/>
+            </tr>
+            <tr>
+                <th>RequestInformation Script</th>
+                <td>This property is a python script that is executed during
+        the RequestInformation pipeline pass. Use this to provide information
+        such as WHOLE_EXTENT to the pipeline downstream.</td>
+                <td>
+                    <span/>
+                </td>
+                <td/>
+            </tr>
+            <tr>
+                <th>RequestUpdateExtent Script</th>
+                <td>This property is a python script that is executed during
+        the RequestUpdateExtent pipeline pass. Use this to modify the update
+        extent that your filter ask up stream for.</td>
+                <td>
+                    <span/>
+                </td>
+                <td/>
+            </tr>
+            <tr>
+                <th>CopyArrays</th>
+                <td>If this property is set to true, all the cell and point
+        arrays from first input are copied to the output.</td>
+                <td>0<span/>
+                </td>
+                <td>
+                    <p>Accepts boolean values (0 or 1).</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Parameters</th>
+                <td/>
+                <td>
+                    <span/>
+                </td>
+                <td/>
+            </tr>
+            <tr>
+                <th>PythonPath</th>
+                <td>A semi-colon (;) separated list of directories to add to
+        the python library search path.</td>
+                <td>
+                    <span/>
+                </td>
+                <td/>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+Determining if glXGetProcAddressARB exists in GL/glx.h TRUE with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1089429580/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1089429580.dir/build.make CMakeFiles/cmTryCompileExec1089429580.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1089429580.dir/CheckglXGetProcAddressARB.cxx.o
+/usr/bin/c++    -fPIC     -o CMakeFiles/cmTryCompileExec1089429580.dir/CheckglXGetProcAddressARB.cxx.o -c /home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/OpenGL/CheckglXGetProcAddressARB.cxx
+Linking CXX executable cmTryCompileExec1089429580
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1089429580.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC      CMakeFiles/cmTryCompileExec1089429580.dir/CheckglXGetProcAddressARB.cxx.o  -o cmTryCompileExec1089429580 -rdynamic -lGLU -lGL -lSM -lICE -lX11 -lXext -lm 
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+
+

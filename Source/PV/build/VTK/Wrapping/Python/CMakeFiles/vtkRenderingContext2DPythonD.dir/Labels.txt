@@ -1,0 +1,35 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkAbstractContextBufferIdPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkAbstractContextItemPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkBlockItemPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkBrushPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkContext2DPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkContextActorPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkContextClipPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkContextItemPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkContextMapper2DPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkContextScenePython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkContextTransformPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageItemPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkMarkerUtilitiesPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPenPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkTooltipItemPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkRenderingContext2DPythonInitImpl.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkAbstractContextBufferIdPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkAbstractContextItemPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkBlockItemPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkBrushPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkContext2DPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkContextActorPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkContextClipPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkContextItemPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkContextMapper2DPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkContextScenePython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkContextTransformPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageItemPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkMarkerUtilitiesPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPenPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkTooltipItemPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkRenderingContext2DPythonInit.cxx.rule

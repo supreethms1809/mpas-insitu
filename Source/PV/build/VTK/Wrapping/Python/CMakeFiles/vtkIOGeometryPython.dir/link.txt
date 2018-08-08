@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOGeometryPython-pv4.3.a  CMakeFiles/vtkIOGeometryPython.dir/vtkIOGeometryPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOGeometryPython-pv4.3.a

@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkRenderingContext2DPython-pv4.3.a  CMakeFiles/vtkRenderingContext2DPython.dir/vtkRenderingContext2DPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkRenderingContext2DPython-pv4.3.a

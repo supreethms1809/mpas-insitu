@@ -1,0 +1,10 @@
+# Target labels
+ vtkRenderingMatplotlib
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Matplotlib/vtkMatplotlibMathTextUtilities.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Rendering/Matplotlib/vtkRenderingMatplotlibObjectFactory.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Matplotlib/vtkMatplotlibMathTextUtilities.h
+/home/mpas/Desktop/Source/PV/build/VTK/Rendering/Matplotlib/vtkRenderingMatplotlibObjectFactory.h
+/home/mpas/Desktop/Source/PV/build/VTK/Rendering/Matplotlib/vtkRenderingMatplotlibModule.h
+/home/mpas/Desktop/Source/PV/build/VTK/Rendering/Matplotlib/vtkRenderingMatplotlibHierarchy.stamp.txt
+/home/mpas/Desktop/Source/PV/build/VTK/Rendering/Matplotlib/vtkRenderingMatplotlibHierarchy.stamp.txt.rule

@@ -1,0 +1,47 @@
+#
+# Copyright (C) 2003, Northwestern University and Argonne National Laboratory
+# See COPYRIGHT notice in top-level directory.
+#
+# $Id: Makefile.in 1885 2014-11-21 17:50:49Z wkliao $
+#
+# test/test_dtype/Makefile.  Generated from Makefile.in by configure.
+
+srcdir  = .
+
+
+include ../../macros.make
+
+INCLUDES  = -I../../src/lib -I$(srcdir)
+LIBS     := $(LIBRARY) $(LIBS) 
+
+SRCS    = test_subarray.c \
+          test_darray.c \
+          test_nonblocking.c
+
+HEADERS = test_dtype.h
+
+OBJS    = $(SRCS:.c=.o)
+PROGS   = $(SRCS:.c=)
+
+GARBAGE      = $(PROGS)
+PACKING_LIST = $(SRCS) $(HEADERS) Makefile.in README
+
+all: $(PROGS)
+
+test_subarray: test_subarray.o $(LIBRARY)
+	$(LINK.c) $< $(LDFLAGS) $(LIBS)
+
+test_darray: test_darray.o $(LIBRARY)
+	$(LINK.c) $< $(LDFLAGS) $(LIBS)
+
+test_nonblocking: test_nonblocking.o $(LIBRARY)
+	$(LINK.c) $< $(LDFLAGS) $(LIBS)
+
+testing check verbose_testing:
+
+ptest ptests:
+
+include $(srcdir)/../../rules.make
+
+$(LIBRARY): ;
+

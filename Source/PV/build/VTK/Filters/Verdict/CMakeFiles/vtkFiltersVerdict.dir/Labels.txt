@@ -1,0 +1,12 @@
+# Target labels
+ vtkFiltersVerdict
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Filters/Verdict/vtkCellQuality.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Filters/Verdict/vtkMatrixMathFilter.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Filters/Verdict/vtkMeshQuality.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Filters/Verdict/vtkCellQuality.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Filters/Verdict/vtkMatrixMathFilter.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Filters/Verdict/vtkMeshQuality.h
+/home/mpas/Desktop/Source/PV/build/VTK/Filters/Verdict/vtkFiltersVerdictModule.h
+/home/mpas/Desktop/Source/PV/build/VTK/Filters/Verdict/vtkFiltersVerdictHierarchy.stamp.txt
+/home/mpas/Desktop/Source/PV/build/VTK/Filters/Verdict/vtkFiltersVerdictHierarchy.stamp.txt.rule

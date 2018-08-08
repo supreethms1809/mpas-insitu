@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOXdmf2Python27D-pv4.3.a  CMakeFiles/vtkIOXdmf2PythonD.dir/vtkSILBuilderPython.cxx.o CMakeFiles/vtkIOXdmf2PythonD.dir/vtkXdmfReaderPython.cxx.o CMakeFiles/vtkIOXdmf2PythonD.dir/vtkXdmfWriterPython.cxx.o CMakeFiles/vtkIOXdmf2PythonD.dir/vtkIOXdmf2PythonInitImpl.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOXdmf2Python27D-pv4.3.a

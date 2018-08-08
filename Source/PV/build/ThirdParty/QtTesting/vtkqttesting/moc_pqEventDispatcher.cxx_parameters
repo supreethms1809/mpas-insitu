@@ -1,0 +1,7 @@
+-DVTK_IN_VTK
+-DMPICH_IGNORE_CXX_SEEK
+-DQT_GUI_LIB
+-DQT_CORE_LIB
+-o
+/home/mpas/Desktop/Source/PV/build/ThirdParty/QtTesting/vtkqttesting/moc_pqEventDispatcher.cxx
+/home/mpas/Desktop/Source/PV/ParaView/ThirdParty/QtTesting/vtkqttesting/pqEventDispatcher.h

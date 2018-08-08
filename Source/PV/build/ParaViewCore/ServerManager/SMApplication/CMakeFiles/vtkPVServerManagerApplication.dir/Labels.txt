@@ -1,0 +1,9 @@
+# Target labels
+ vtkPVServerManagerApplication
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/ParaView/ParaViewCore/ServerManager/SMApplication/vtkInitializationHelper.cxx
+/home/mpas/Desktop/Source/PV/ParaView/ParaViewCore/ServerManager/SMApplication/vtkInitializationHelper.h
+/home/mpas/Desktop/Source/PV/build/ParaViewCore/ServerManager/SMApplication/vtkPVServerManagerApplicationModule.h
+/home/mpas/Desktop/Source/PV/build/ParaViewCore/ServerManager/SMApplication/vtkPVServerManagerApplicationHierarchy.stamp.txt
+/home/mpas/Desktop/Source/PV/build/ParaViewCore/ServerManager/SMApplication/vtkSMGeneratedModules.h.rule
+/home/mpas/Desktop/Source/PV/build/ParaViewCore/ServerManager/SMApplication/vtkPVServerManagerApplicationHierarchy.stamp.txt.rule

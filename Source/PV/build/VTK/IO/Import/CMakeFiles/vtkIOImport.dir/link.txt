@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOImport-pv4.3.a  CMakeFiles/vtkIOImport.dir/vtk3DSImporter.cxx.o CMakeFiles/vtkIOImport.dir/vtkImporter.cxx.o CMakeFiles/vtkIOImport.dir/vtkVRMLImporter.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOImport-pv4.3.a

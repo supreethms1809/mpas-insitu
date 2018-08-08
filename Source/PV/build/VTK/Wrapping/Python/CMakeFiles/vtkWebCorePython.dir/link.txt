@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkWebCorePython-pv4.3.a  CMakeFiles/vtkWebCorePython.dir/vtkWebCorePythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkWebCorePython-pv4.3.a

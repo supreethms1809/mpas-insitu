@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkImagingSources-pv4.3.a  CMakeFiles/vtkImagingSources.dir/vtkImageCanvasSource2D.cxx.o CMakeFiles/vtkImagingSources.dir/vtkImageEllipsoidSource.cxx.o CMakeFiles/vtkImagingSources.dir/vtkImageGaussianSource.cxx.o CMakeFiles/vtkImagingSources.dir/vtkImageGridSource.cxx.o CMakeFiles/vtkImagingSources.dir/vtkImageMandelbrotSource.cxx.o CMakeFiles/vtkImagingSources.dir/vtkImageNoiseSource.cxx.o CMakeFiles/vtkImagingSources.dir/vtkImageSinusoidSource.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkImagingSources-pv4.3.a

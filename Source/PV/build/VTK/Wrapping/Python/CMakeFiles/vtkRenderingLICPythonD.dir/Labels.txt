@@ -1,0 +1,13 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageDataLIC2DPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkStructuredGridLIC2DPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkSurfaceLICDefaultPainterPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkSurfaceLICPainterPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkRenderingLICPythonInitImpl.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImageDataLIC2DPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkStructuredGridLIC2DPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkSurfaceLICDefaultPainterPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkSurfaceLICPainterPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkRenderingLICPythonInit.cxx.rule

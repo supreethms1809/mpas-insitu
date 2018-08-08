@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkCommonColorPython27D-pv4.3.a  CMakeFiles/vtkCommonColorPythonD.dir/vtkColorSeriesPython.cxx.o CMakeFiles/vtkCommonColorPythonD.dir/vtkNamedColorsPython.cxx.o CMakeFiles/vtkCommonColorPythonD.dir/vtkCommonColorPythonInitImpl.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkCommonColorPython27D-pv4.3.a

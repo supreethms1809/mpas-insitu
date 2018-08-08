@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkFiltersParallelPython-pv4.3.a  CMakeFiles/vtkFiltersParallelPython.dir/vtkFiltersParallelPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkFiltersParallelPython-pv4.3.a

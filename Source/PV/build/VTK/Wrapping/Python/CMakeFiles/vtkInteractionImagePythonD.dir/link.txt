@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkInteractionImagePython27D-pv4.3.a  CMakeFiles/vtkInteractionImagePythonD.dir/vtkImageViewer2Python.cxx.o CMakeFiles/vtkInteractionImagePythonD.dir/vtkImageViewerPython.cxx.o CMakeFiles/vtkInteractionImagePythonD.dir/vtkResliceImageViewerPython.cxx.o CMakeFiles/vtkInteractionImagePythonD.dir/vtkResliceImageViewerMeasurementsPython.cxx.o CMakeFiles/vtkInteractionImagePythonD.dir/vtkInteractionImagePythonInitImpl.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkInteractionImagePython27D-pv4.3.a

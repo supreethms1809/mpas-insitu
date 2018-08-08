@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOPLYPython27D-pv4.3.a  CMakeFiles/vtkIOPLYPythonD.dir/vtkPLYReaderPython.cxx.o CMakeFiles/vtkIOPLYPythonD.dir/vtkPLYWriterPython.cxx.o CMakeFiles/vtkIOPLYPythonD.dir/vtkIOPLYPythonInitImpl.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOPLYPython27D-pv4.3.a

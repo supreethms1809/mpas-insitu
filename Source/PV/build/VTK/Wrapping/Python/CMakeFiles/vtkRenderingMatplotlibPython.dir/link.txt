@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkRenderingMatplotlibPython-pv4.3.a  CMakeFiles/vtkRenderingMatplotlibPython.dir/vtkRenderingMatplotlibPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkRenderingMatplotlibPython-pv4.3.a

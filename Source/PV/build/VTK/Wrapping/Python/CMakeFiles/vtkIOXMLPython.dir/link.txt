@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOXMLPython-pv4.3.a  CMakeFiles/vtkIOXMLPython.dir/vtkIOXMLPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOXMLPython-pv4.3.a

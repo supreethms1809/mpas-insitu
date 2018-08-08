@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOXdmf2-pv4.3.a  CMakeFiles/vtkIOXdmf2.dir/vtkSILBuilder.cxx.o CMakeFiles/vtkIOXdmf2.dir/vtkXdmfDataArray.cxx.o CMakeFiles/vtkIOXdmf2.dir/vtkXdmfHeavyData.cxx.o CMakeFiles/vtkIOXdmf2.dir/vtkXdmfReader.cxx.o CMakeFiles/vtkIOXdmf2.dir/vtkXdmfReaderInternal.cxx.o CMakeFiles/vtkIOXdmf2.dir/vtkXdmfWriter.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOXdmf2-pv4.3.a

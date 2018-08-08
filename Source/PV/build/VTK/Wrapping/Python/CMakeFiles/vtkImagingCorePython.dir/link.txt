@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkImagingCorePython-pv4.3.a  CMakeFiles/vtkImagingCorePython.dir/vtkImagingCorePythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkImagingCorePython-pv4.3.a

@@ -1,0 +1,23 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkCompositeMultiProcessControllerPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkDistributedTrivialProducerPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPVCompositeDataPipelinePython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPVPostFilterPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPVPostFilterExecutivePython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPVTrivialProducerPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkUndoElementPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkUndoSetPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkUndoStackPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPVVTKExtensionsCorePythonInitImpl.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkCompositeMultiProcessControllerPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkDistributedTrivialProducerPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPVCompositeDataPipelinePython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPVPostFilterPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPVPostFilterExecutivePython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPVTrivialProducerPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkUndoElementPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkUndoSetPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkUndoStackPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPVVTKExtensionsCorePythonInit.cxx.rule

@@ -1,0 +1,193 @@
+#
+# Copyright (C) 2003, Northwestern University and Argonne National Laboratory
+# See COPYRIGHT notice in top-level directory.
+#
+# $Id: Makefile.in 1959 2014-12-27 21:05:36Z wkliao $
+#
+# @configure_input@
+
+srcdir = @srcdir@
+VPATH  = @srcdir@
+
+include ../../macros.make
+
+INCLUDES  = -I../../src/lib
+FPPFLAGS += -I../../src/libf @FC_MODINC@../../src/libf90
+LIBS     := $(LIBRARY) $(LIBS) @LCOV_LIB@
+
+NCMPIGEN  = ../../src/utils/ncmpigen/ncmpigen
+NCMPIDIFF = ../../src/utils/ncmpidiff/ncmpidiff
+
+C_SRCS   = ncmpi_vars_null_stride.c \
+           vectors.c \
+           collective_error.c \
+           test_varm.c \
+           alignment_test.c \
+           flexible.c \
+           flexible2.c \
+           flexible_varm.c \
+           nonblocking.c \
+           noclobber.c \
+           record.c \
+           inq_num_vars.c \
+           varn_int.c \
+           modes.c \
+           one_record.c \
+           inq_recsize.c \
+           test_vard.c \
+           varn_contig.c \
+           redef1.c
+
+F77_SRCS = test_vardf.f \
+           varn_intf.f
+
+F90_SRCS = inq_num_varsf.f90 \
+           inq_recsizef.f90 \
+           test_vardf90.f90 \
+           varn_real.f90
+
+PROGS    = $(C_SRCS:.c=)
+OBJS     = $(C_SRCS:.c=.o)
+
+ifeq (@has_fortran@, yes)
+PROGS   += $(F77_SRCS:.f=)   $(F90_SRCS:.f90=)
+OBJS    += $(F77_SRCS:.f=.o) $(F90_SRCS:.f90=.o)
+ifeq (@large_file_test@, yes)
+PROGS   += bigrecords
+OBJS    += bigrecords.o
+endif
+endif
+
+GARBAGE      = $(PROGS) *.nc
+PACKING_LIST = $(C_SRCS) $(F77_SRCS) $(F90_SRCS) \
+               bigrecords.f \
+               Makefile.in depend \
+               geopotential.ncdump \
+               redef-good.ncdump \
+               interop1.sh \
+               redef1.sh
+
+all: $(PROGS)
+
+ncmpi_vars_null_stride: ncmpi_vars_null_stride.o $(LIBRARY)
+	$(LINK.c) $< $(LDFLAGS) $(LIBS)
+
+vectors: vectors.o $(LIBRARY)
+	$(LINK.c) $< $(LDFLAGS) $(LIBS)
+
+bigrecords: bigrecords.o $(LIBRARY)
+	$(LINK.f) $< $(LDFLAGS) $(LIBS)
+
+redef1: redef1.o $(LIBRARY)
+	$(LINK.c) $< $(LDFLAGS) $(LIBS)
+
+collective_error: collective_error.o $(LIBRARY)
+	$(LINK.c) $< $(LDFLAGS) $(LIBS)
+
+test_varm: test_varm.o $(LIBRARY)
+	$(LINK.c) $< $(LDFLAGS) $(LIBS)
+
+alignment_test: alignment_test.o $(LIBRARY)
+	$(LINK.c) $< $(LDFLAGS) $(LIBS)
+
+flexible: flexible.o $(LIBRARY)
+	$(LINK.c) $< $(LDFLAGS) $(LIBS)
+
+flexible2: flexible2.o $(LIBRARY)
+	$(LINK.c) $< $(LDFLAGS) $(LIBS)
+
+flexible_varm: flexible_varm.o $(LIBRARY)
+	$(LINK.c) $< $(LDFLAGS) $(LIBS)
+
+nonblocking: nonblocking.o $(LIBRARY)
+	$(LINK.c) $< $(LDFLAGS) $(LIBS)
+
+noclobber: noclobber.o $(LIBRARY)
+	$(LINK.c) $< $(LDFLAGS) $(LIBS)
+
+record: record.o $(LIBRARY)
+	$(LINK.c) $< $(LDFLAGS) $(LIBS)
+
+inq_num_vars: inq_num_vars.o $(LIBRARY)
+	$(LINK.c) $< $(LDFLAGS) $(LIBS)
+
+varn_int: varn_int.o $(LIBRARY)
+	$(LINK.c) $< $(LDFLAGS) $(LIBS)
+
+varn_contig: varn_contig.o $(LIBRARY)
+	$(LINK.c) $< $(LDFLAGS) $(LIBS)
+
+modes: modes.o $(LIBRARY)
+	$(LINK.c) $< $(LDFLAGS) $(LIBS)
+
+one_record: one_record.o $(LIBRARY)
+	$(LINK.c) $< $(LDFLAGS) $(LIBS)
+
+inq_recsize: inq_recsize.o $(LIBRARY)
+	$(LINK.c) $< $(LDFLAGS) $(LIBS)
+
+test_vard: test_vard.o $(LIBRARY)
+	$(LINK.c) $< $(LDFLAGS) $(LIBS)
+
+profile: profile.o $(LIBRARY)
+	$(LINK.c) $< $(LDFLAGS) $(LIBS)
+
+inq_num_varsf: inq_num_varsf.o $(LIBRARY)
+	$(LINK.F90) $< $(LDFLAGS) $(LIBS)
+
+inq_recsizef: inq_recsizef.o $(LIBRARY)
+	$(LINK.F90) $< $(LDFLAGS) $(LIBS)
+
+test_vardf: test_vardf.o $(LIBRARY)
+	$(LINK.F) $< $(LDFLAGS) $(LIBS)
+
+varn_intf: varn_intf.o $(LIBRARY)
+	$(LINK.F) $< $(LDFLAGS) $(LIBS)
+
+test_vardf90: test_vardf90.o $(LIBRARY)
+	$(LINK.F90) $< $(LDFLAGS) $(LIBS)
+
+varn_real: varn_real.o $(LIBRARY)
+	$(LINK.F90) $< $(LDFLAGS) $(LIBS)
+
+testing check verbose_testing : $(PROGS)
+	$(RM) -f $(TEST_OUTDIR)/testfile.nc $(TEST_OUTDIR)/redef1.nc
+	for i in $(PROGS); do ( \
+	$(TEST_SEQRUN) ./$$i $(TEST_OUTDIR)/testfile.nc \
+	; ) ; done
+	$(TEST_SEQRUN) ./redef1 $(TEST_OUTDIR)/testfile.nc
+	$(TEST_SEQRUN) $(NCMPIGEN) -v 2 -o $(TEST_OUTDIR)/redef1.nc $(srcdir)/redef-good.ncdump
+	$(TEST_SEQRUN) $(NCMPIDIFF) $(TEST_OUTDIR)/testfile.nc $(TEST_OUTDIR)/redef1.nc
+
+# Some of these tests are designed to run on one process,
+# Run them on 4 processes to see if they can handle well
+TEST_MPIRUN_4  = $(subst NP,4,$(TEST_MPIRUN))
+ptest: $(PROGS)
+	$(RM) -f $(TEST_OUTDIR)/testfile.nc $(TEST_OUTDIR)/redef1.nc
+	for i in $(PROGS); do ( \
+	$(TEST_MPIRUN_4) ./$$i $(TEST_OUTDIR)/testfile.nc \
+	; ) ; done
+
+# Some of these tests are designed to run on 4 processes,
+# Run them on 2, 4, and 6 processes to see if they can handle well
+TEST_MPIRUN_2  = $(subst NP,2,$(TEST_MPIRUN))
+TEST_MPIRUN_6  = $(subst NP,6,$(TEST_MPIRUN))
+ptests: $(PROGS)
+	$(RM) -f $(TEST_OUTDIR)/testfile.nc $(TEST_OUTDIR)/redef1.nc
+	for i in $(PROGS); do ( \
+	$(TEST_MPIRUN_4) ./$$i $(TEST_OUTDIR)/testfile.nc \
+	; ) ; done
+	$(RM) -f $(TEST_OUTDIR)/testfile.nc $(TEST_OUTDIR)/redef1.nc
+	for i in $(PROGS); do ( \
+	$(TEST_MPIRUN_2) ./$$i $(TEST_OUTDIR)/testfile.nc \
+	; ) ; done
+	$(RM) -f $(TEST_OUTDIR)/testfile.nc $(TEST_OUTDIR)/redef1.nc
+	for i in $(PROGS); do ( \
+	$(TEST_MPIRUN_6) ./$$i $(TEST_OUTDIR)/testfile.nc \
+	; ) ; done
+
+include $(srcdir)/../../rules.make
+include $(srcdir)/depend
+
+$(LIBRARY): ;
+

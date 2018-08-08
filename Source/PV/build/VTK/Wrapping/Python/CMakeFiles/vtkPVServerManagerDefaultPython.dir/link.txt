@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkPVServerManagerDefaultPython-pv4.3.a  CMakeFiles/vtkPVServerManagerDefaultPython.dir/vtkPVServerManagerDefaultPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkPVServerManagerDefaultPython-pv4.3.a

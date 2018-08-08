@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOLSDynaPython-pv4.3.a  CMakeFiles/vtkIOLSDynaPython.dir/vtkIOLSDynaPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOLSDynaPython-pv4.3.a

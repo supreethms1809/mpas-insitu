@@ -1,0 +1,17 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkConvertSelectionDomainPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkDataRepresentationPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkEmptyRepresentationPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkRenderViewBasePython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkViewPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkViewThemePython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkViewsCorePythonInitImpl.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkConvertSelectionDomainPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkDataRepresentationPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkEmptyRepresentationPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkRenderViewBasePython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkViewPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkViewThemePython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkViewsCorePythonInit.cxx.rule

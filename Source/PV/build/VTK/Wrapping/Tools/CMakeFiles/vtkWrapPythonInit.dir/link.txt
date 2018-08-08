@@ -1,0 +1,1 @@
+/usr/bin/mpicc  -fPIC  -Os -DNDEBUG  -Wl,--fatal-warnings -Wl,--no-undefined -lc -Wl,--fatal-warnings -Wl,--no-undefined -lc    CMakeFiles/vtkWrapPythonInit.dir/vtkWrapPythonInit.c.o  -o ../../../bin/vtkWrapPythonInit-pv4.3 -rdynamic 

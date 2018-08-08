@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOParallelLSDynaPython-pv4.3.a  CMakeFiles/vtkIOParallelLSDynaPython.dir/vtkIOParallelLSDynaPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOParallelLSDynaPython-pv4.3.a

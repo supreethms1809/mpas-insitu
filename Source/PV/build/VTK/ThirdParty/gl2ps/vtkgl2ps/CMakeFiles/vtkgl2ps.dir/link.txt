@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../../lib/libvtkgl2ps-pv4.3.a  CMakeFiles/vtkgl2ps.dir/gl2ps.c.o
+/usr/bin/ranlib ../../../../lib/libvtkgl2ps-pv4.3.a

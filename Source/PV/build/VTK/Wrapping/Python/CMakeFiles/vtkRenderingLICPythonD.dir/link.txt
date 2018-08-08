@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkRenderingLICPython27D-pv4.3.a  CMakeFiles/vtkRenderingLICPythonD.dir/vtkImageDataLIC2DPython.cxx.o CMakeFiles/vtkRenderingLICPythonD.dir/vtkStructuredGridLIC2DPython.cxx.o CMakeFiles/vtkRenderingLICPythonD.dir/vtkSurfaceLICDefaultPainterPython.cxx.o CMakeFiles/vtkRenderingLICPythonD.dir/vtkSurfaceLICPainterPython.cxx.o CMakeFiles/vtkRenderingLICPythonD.dir/vtkRenderingLICPythonInitImpl.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkRenderingLICPython27D-pv4.3.a

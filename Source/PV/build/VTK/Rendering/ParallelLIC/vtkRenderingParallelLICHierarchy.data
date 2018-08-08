@@ -1,0 +1,10 @@
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/ParallelLIC/vtkMPIPixelTT.h;vtkRenderingParallelLIC;WRAP_EXCLUDE
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/ParallelLIC/vtkParallelTimer.h;vtkRenderingParallelLIC
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/ParallelLIC/vtkPPixelTransfer.h;vtkRenderingParallelLIC;WRAP_EXCLUDE
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/ParallelLIC/vtkPLineIntegralConvolution2D.h;vtkRenderingParallelLIC;WRAP_EXCLUDE
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/ParallelLIC/vtkPPainterCommunicator.h;vtkRenderingParallelLIC;WRAP_EXCLUDE
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/ParallelLIC/vtkPSurfaceLICComposite.h;vtkRenderingParallelLIC;WRAP_EXCLUDE
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/ParallelLIC/vtkPSurfaceLICPainter.h;vtkRenderingParallelLIC
+/home/mpas/Desktop/Source/PV/build/VTK/Rendering/ParallelLIC/vtkRenderingParallelLICObjectFactory.h;vtkRenderingParallelLIC
+/home/mpas/Desktop/Source/PV/build/VTK/Rendering/ParallelLIC/vtkPSurfaceLICComposite_Comp.h;vtkRenderingParallelLIC;WRAP_EXCLUDE
+

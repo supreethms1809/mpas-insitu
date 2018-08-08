@@ -1,0 +1,1910 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec627068174/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec627068174.dir/build.make CMakeFiles/cmTryCompileExec627068174.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec627068174.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -fPIC  -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec627068174.dir/CheckSymbolExists.cxx.o -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec627068174.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec627068174/fast] Error 2
+
+File /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec513368179/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec513368179.dir/build.make CMakeFiles/cmTryCompileExec513368179.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec513368179.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -fPIC  -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec513368179.dir/CheckSymbolExists.cxx.o -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec513368179.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec513368179/fast] Error 2
+
+File /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2723885471/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2723885471.dir/build.make CMakeFiles/cmTryCompileExec2723885471.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2723885471.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -fPIC  -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2723885471.dir/CheckSymbolExists.cxx.o -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2723885471.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec2723885471/fast] Error 2
+
+File /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec799487568/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec799487568.dir/build.make CMakeFiles/cmTryCompileExec799487568.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec799487568.dir/TestEndianess.c.o
+/usr/bin/mpicc   -fPIC     -o CMakeFiles/cmTryCompileExec799487568.dir/TestEndianess.c.o   -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec799487568
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec799487568.dir/link.txt --verbose=1
+/usr/bin/mpicc  -fPIC      CMakeFiles/cmTryCompileExec799487568.dir/TestEndianess.c.o  -o cmTryCompileExec799487568 -rdynamic 
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int64 failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4253198890/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4253198890.dir/build.make CMakeFiles/cmTryCompileExec4253198890.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4253198890.dir/VTK_SIZEOF___INT64.c.o
+/usr/bin/mpicc   -fPIC     -o CMakeFiles/cmTryCompileExec4253198890.dir/VTK_SIZEOF___INT64.c.o   -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CheckTypeSize/VTK_SIZEOF___INT64.c
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CheckTypeSize/VTK_SIZEOF___INT64.c:17:22: error: ‘__int64’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int64))
+                      ^
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CheckTypeSize/VTK_SIZEOF___INT64.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec4253198890.dir/VTK_SIZEOF___INT64.c.o] Error 1
+make: *** [cmTryCompileExec4253198890/fast] Error 2
+
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CheckTypeSize/VTK_SIZEOF___INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function getsockname exists in the socket failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1148738514/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1148738514.dir/build.make CMakeFiles/cmTryCompileExec1148738514.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1148738514.dir/CheckFunctionExists.c.o
+/usr/bin/mpicc   -fPIC  -DCHECK_FUNCTION_EXISTS=getsockname   -o CMakeFiles/cmTryCompileExec1148738514.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1148738514
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1148738514.dir/link.txt --verbose=1
+/usr/bin/mpicc  -fPIC  -DCHECK_FUNCTION_EXISTS=getsockname    CMakeFiles/cmTryCompileExec1148738514.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1148738514 -rdynamic -lsocket 
+/usr/bin/ld: cannot find -lsocket
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec1148738514] Error 1
+make: *** [cmTryCompileExec1148738514/fast] Error 2
+
+
+Checking for non-standard argument to stl allocator<>::max_size failed to compile with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3898186260/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3898186260.dir/build.make CMakeFiles/cmTryCompileExec3898186260.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3898186260.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++   -DKWSYS_STL_HAVE_STD=1 -DTEST_KWSYS_STL_HAS_ALLOCATOR_MAX_SIZE_ARGUMENT -fPIC     -o CMakeFiles/cmTryCompileExec3898186260.dir/kwsysPlatformTestsCXX.cxx.o -c /home/mpas/Desktop/Source/PV/ParaView/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx: In function ‘void f(const std::allocator<char>&)’:
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:256:25: error: no matching function for call to ‘std::allocator<char>::max_size(long unsigned int) const’
+   a.max_size(sizeof(int));
+                         ^
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:256:25: note: candidate is:
+In file included from /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++allocator.h:33:0,
+                 from /usr/include/c++/4.8/bits/allocator.h:46,
+                 from /usr/include/c++/4.8/memory:63,
+                 from /home/mpas/Desktop/Source/PV/ParaView/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:253:
+/usr/include/c++/4.8/ext/new_allocator.h:113:7: note: __gnu_cxx::new_allocator<_Tp>::size_type __gnu_cxx::new_allocator<_Tp>::max_size() const [with _Tp = char; __gnu_cxx::new_allocator<_Tp>::size_type = long unsigned int]
+       max_size() const _GLIBCXX_USE_NOEXCEPT
+       ^
+/usr/include/c++/4.8/ext/new_allocator.h:113:7: note:   candidate expects 0 arguments, 1 provided
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3898186260.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make: *** [cmTryCompileExec3898186260/fast] Error 2
+
+
+Checking whether "<>" is needed for template friends failed to compile with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2567613386/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2567613386.dir/build.make CMakeFiles/cmTryCompileExec2567613386.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2567613386.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++   -DTEST_KWSYS_CXX_HAS_NULL_TEMPLATE_ARGS -fPIC     -o CMakeFiles/cmTryCompileExec2567613386.dir/kwsysPlatformTestsCXX.cxx.o -c /home/mpas/Desktop/Source/PV/ParaView/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:141:21: warning: friend declaration ‘int f(A<T>&)’ declares a non-template function [-Wnon-template-friend]
+   friend int f(A<T>&);
+                     ^
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:141:21: note: (if this is not what you intended, make sure the function template has already been declared and add <> after the function name here) 
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx: In instantiation of ‘int f(A<T>&) [with T = int]’:
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:147:23:   required from here
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:143:7: error: ‘int A<int>::x’ is private
+   int x;
+       ^
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:146:48: error: within this context
+ template <class T> int f(A<T>& a) { return a.x = 0; }
+                                                ^
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2567613386.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make: *** [cmTryCompileExec2567613386/fast] Error 2
+
+
+Checking whether C++ compiler has '__int64' failed to compile with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1422050996/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1422050996.dir/build.make CMakeFiles/cmTryCompileExec1422050996.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1422050996.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++   -DTEST_KWSYS_CXX_HAS___INT64 -fPIC     -o CMakeFiles/cmTryCompileExec1422050996.dir/kwsysPlatformTestsCXX.cxx.o -c /home/mpas/Desktop/Source/PV/ParaView/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:126:1: error: ‘__int64’ does not name a type
+ __int64 f(__int64 n) { return n; }
+ ^
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx: In function ‘int main()’:
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:129:3: error: ‘__int64’ was not declared in this scope
+   __int64 n = 0;
+   ^
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:129:11: error: expected ‘;’ before ‘n’
+   __int64 n = 0;
+           ^
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:130:29: error: ‘n’ was not declared in this scope
+   return static_cast<int>(f(n));
+                             ^
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:130:30: error: ‘f’ was not declared in this scope
+   return static_cast<int>(f(n));
+                              ^
+make[1]: *** [CMakeFiles/cmTryCompileExec1422050996.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1422050996/fast] Error 2
+
+
+Determining size of __int64 failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1837572416/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1837572416.dir/build.make CMakeFiles/cmTryCompileExec1837572416.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1837572416.dir/KWSYS_SIZEOF___INT64.c.o
+/usr/bin/mpicc   -fPIC     -o CMakeFiles/cmTryCompileExec1837572416.dir/KWSYS_SIZEOF___INT64.c.o   -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CheckTypeSize/KWSYS_SIZEOF___INT64.c
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CheckTypeSize/KWSYS_SIZEOF___INT64.c:17:22: error: ‘__int64’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int64))
+                      ^
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CheckTypeSize/KWSYS_SIZEOF___INT64.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1837572416.dir/KWSYS_SIZEOF___INT64.c.o] Error 1
+make: *** [cmTryCompileExec1837572416/fast] Error 2
+
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CheckTypeSize/KWSYS_SIZEOF___INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Checking whether CXX compiler has environ in stdlib.h failed to compile with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1300592896/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1300592896.dir/build.make CMakeFiles/cmTryCompileExec1300592896.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1300592896.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++   -DTEST_KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H -fPIC     -o CMakeFiles/cmTryCompileExec1300592896.dir/kwsysPlatformTestsCXX.cxx.o -c /home/mpas/Desktop/Source/PV/ParaView/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx: In function ‘int main()’:
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:450:13: error: ‘environ’ was not declared in this scope
+   char* e = environ[0];
+             ^
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1300592896.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make: *** [cmTryCompileExec1300592896/fast] Error 2
+
+
+Checking whether CXX compiler has _atoi64 failed to compile with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3466710183/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3466710183.dir/build.make CMakeFiles/cmTryCompileExec3466710183.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3466710183.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++   -DTEST_KWSYS_CXX_HAS__ATOI64 -fPIC     -o CMakeFiles/cmTryCompileExec3466710183.dir/kwsysPlatformTestsCXX.cxx.o -c /home/mpas/Desktop/Source/PV/ParaView/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx: In function ‘int main()’:
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Utilities/KWSys/vtksys/kwsysPlatformTestsCXX.cxx:493:38: error: ‘_atoi64’ was not declared in this scope
+   return static_cast<int>(_atoi64(str));
+                                      ^
+make[1]: *** [CMakeFiles/cmTryCompileExec3466710183.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/VTK/Utilities/KWSys/vtksys/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3466710183/fast] Error 2
+
+
+Determining if files windows.h exist failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1257547793/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1257547793.dir/build.make CMakeFiles/cmTryCompileExec1257547793.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1257547793.dir/CheckIncludeFiles.c.o
+/usr/bin/mpicc   -fPIC  -w -w    -o CMakeFiles/cmTryCompileExec1257547793.dir/CheckIncludeFiles.c.o   -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: fatal error: windows.h: No such file or directory
+ #include <windows.h>
+                     ^
+compilation terminated.
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1257547793.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec1257547793/fast] Error 2
+
+Source:
+/* */
+#include <windows.h>
+
+
+int main(){return 0;}
+
+Determining if files ieeefp.h exist failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1997364374/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1997364374.dir/build.make CMakeFiles/cmTryCompileExec1997364374.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1997364374.dir/CheckIncludeFiles.c.o
+/usr/bin/mpicc   -fPIC  -w -w    -o CMakeFiles/cmTryCompileExec1997364374.dir/CheckIncludeFiles.c.o   -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: ieeefp.h: No such file or directory
+ #include <ieeefp.h>
+                    ^
+compilation terminated.
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1997364374.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec1997364374/fast] Error 2
+
+Source:
+/* */
+#include <ieeefp.h>
+
+
+int main(){return 0;}
+
+Determining if the function floor exists failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec398333009/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec398333009.dir/build.make CMakeFiles/cmTryCompileExec398333009.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec398333009.dir/CheckFunctionExists.c.o
+/usr/bin/mpicc   -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=floor   -o CMakeFiles/cmTryCompileExec398333009.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec398333009
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec398333009.dir/link.txt --verbose=1
+/usr/bin/mpicc  -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=floor    CMakeFiles/cmTryCompileExec398333009.dir/CheckFunctionExists.c.o  -o cmTryCompileExec398333009 -rdynamic 
+CMakeFiles/cmTryCompileExec398333009.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `floor'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec398333009] Error 1
+make: *** [cmTryCompileExec398333009/fast] Error 2
+
+
+Determining if the function pow exists failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1415698243/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1415698243.dir/build.make CMakeFiles/cmTryCompileExec1415698243.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1415698243.dir/CheckFunctionExists.c.o
+/usr/bin/mpicc   -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=pow   -o CMakeFiles/cmTryCompileExec1415698243.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1415698243
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1415698243.dir/link.txt --verbose=1
+/usr/bin/mpicc  -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=pow    CMakeFiles/cmTryCompileExec1415698243.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1415698243 -rdynamic 
+CMakeFiles/cmTryCompileExec1415698243.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec1415698243] Error 1
+make: *** [cmTryCompileExec1415698243/fast] Error 2
+
+
+Determining if the function sqrt exists failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2063019271/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2063019271.dir/build.make CMakeFiles/cmTryCompileExec2063019271.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2063019271.dir/CheckFunctionExists.c.o
+/usr/bin/mpicc   -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=sqrt   -o CMakeFiles/cmTryCompileExec2063019271.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2063019271
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2063019271.dir/link.txt --verbose=1
+/usr/bin/mpicc  -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=sqrt    CMakeFiles/cmTryCompileExec2063019271.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2063019271 -rdynamic 
+CMakeFiles/cmTryCompileExec2063019271.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec2063019271] Error 1
+make: *** [cmTryCompileExec2063019271/fast] Error 2
+
+
+Performing C SOURCE FILE Test GLX_DEFINES_TYPE_GLXextFuncPtr_AS_EMPTY failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2007260361/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2007260361.dir/build.make CMakeFiles/cmTryCompileExec2007260361.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2007260361.dir/src.c.o
+/usr/bin/mpicc   -fPIC  -DGLX_DEFINES_TYPE_GLXextFuncPtr_AS_EMPTY   -o CMakeFiles/cmTryCompileExec2007260361.dir/src.c.o   -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/src.c
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/src.c:8:2: error: too many arguments to function ‘f’
+  f(x); /* fails if prototype is void, pass if prototype is empty. */
+  ^
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2007260361.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec2007260361/fast] Error 2
+
+Source file was:
+
+#define GLX_GLXEXT_LEGACY
+#include <GL/glx.h>
+int main()
+{
+ __GLXextFuncPtr f;
+ int x;
+ f(x); /* fails if prototype is void, pass if prototype is empty. */
+
+ return 0;
+}
+
+Performing C SOURCE FILE Test GLX_DECLARES_FUNCTION_glXGetProcAddressARB_AS_EMPTY failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2208839444/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2208839444.dir/build.make CMakeFiles/cmTryCompileExec2208839444.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2208839444.dir/src.c.o
+/usr/bin/mpicc   -fPIC  -DGLX_DECLARES_FUNCTION_glXGetProcAddressARB_AS_EMPTY   -o CMakeFiles/cmTryCompileExec2208839444.dir/src.c.o   -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/src.c
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/src.c:8:2: error: too many arguments to function ‘glXGetProcAddressARB((const GLubyte *)"aRandomFunction")’
+  glXGetProcAddressARB((const GLubyte *)("aRandomFunction"))(x);
+  ^
+make[1]: *** [CMakeFiles/cmTryCompileExec2208839444.dir/src.c.o] Error 1
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2208839444/fast] Error 2
+
+Source file was:
+
+#define GLX_GLXEXT_LEGACY
+#include <GL/glx.h>
+int main()
+{
+ int x;
+ /* fails if prototype is void, pass if prototype is empty. */
+ glXGetProcAddressARB((const GLubyte *)("aRandomFunction"))(x);
+ return 0;
+}
+
+Performing C SOURCE FILE Test GLX_DECLARES_FUNCTION_glXGetProcAddress_AS_EMPTY failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2507072708/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2507072708.dir/build.make CMakeFiles/cmTryCompileExec2507072708.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2507072708.dir/src.c.o
+/usr/bin/mpicc   -fPIC  -DGLX_DECLARES_FUNCTION_glXGetProcAddress_AS_EMPTY   -o CMakeFiles/cmTryCompileExec2507072708.dir/src.c.o   -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/src.c
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/src.c:8:2: error: too many arguments to function ‘glXGetProcAddress((const GLubyte *)"aRandomFunction")’
+  glXGetProcAddress((const GLubyte *)("aRandomFunction"))(x);
+  ^
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2507072708.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec2507072708/fast] Error 2
+
+Source file was:
+
+#define GLX_GLXEXT_LEGACY
+#include <GL/glx.h>
+int main()
+{
+ int x;
+ /* fails if prototype is void, pass if prototype is empty. */
+ glXGetProcAddress((const GLubyte *)("aRandomFunction"))(x);
+ return 0;
+}
+
+Determining if the function shl_load exists in the dld;dl failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2872731441/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2872731441.dir/build.make CMakeFiles/cmTryCompileExec2872731441.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2872731441.dir/CheckFunctionExists.c.o
+/usr/bin/mpicc   -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=shl_load   -o CMakeFiles/cmTryCompileExec2872731441.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2872731441
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2872731441.dir/link.txt --verbose=1
+/usr/bin/mpicc  -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=shl_load    CMakeFiles/cmTryCompileExec2872731441.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2872731441 -rdynamic -ldld -ldl 
+/usr/bin/ld: cannot find -ldld
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2872731441] Error 1
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2872731441/fast] Error 2
+
+
+Determining if files stdio.h;stddef.h;sys/types.h;inttypes.h;dlfcn.h;fcntl.h;malloc.h;memory.h;netdb.h;limits.h;sys/socket.h;netinet/in.h;sys/select.h;stdint.h;stdlib.h;string.h;strings.h;sys/stat.h;sys/time.h;time.h;unistd.h;signal.h;errno.h;ansidecl.h exist failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec730973412/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec730973412.dir/build.make CMakeFiles/cmTryCompileExec730973412.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec730973412.dir/CheckIncludeFiles.c.o
+/usr/bin/mpicc  -D_GNU_SOURCE -fPIC  -w -w    -o CMakeFiles/cmTryCompileExec730973412.dir/CheckIncludeFiles.c.o   -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:25:22: fatal error: ansidecl.h: No such file or directory
+ #include <ansidecl.h>
+                      ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec730973412.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec730973412/fast] Error 2
+
+Source:
+/* */
+#include <stdio.h>
+#include <stddef.h>
+#include <sys/types.h>
+#include <inttypes.h>
+#include <dlfcn.h>
+#include <fcntl.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netdb.h>
+#include <limits.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <sys/select.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <time.h>
+#include <unistd.h>
+#include <signal.h>
+#include <errno.h>
+#include <ansidecl.h>
+
+
+int main(){return 0;}
+
+Determining if files stdio.h;stddef.h;sys/types.h;inttypes.h;dlfcn.h;fcntl.h;malloc.h;memory.h;netdb.h;limits.h;sys/socket.h;netinet/in.h;sys/select.h;stdint.h;stdlib.h;string.h;strings.h;sys/stat.h;sys/time.h;time.h;unistd.h;signal.h;errno.h;arpa/inet.h;arpa/nameser.h;ctype.h;dirent.h;dl.h exist failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2366536063/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2366536063.dir/build.make CMakeFiles/cmTryCompileExec2366536063.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2366536063.dir/CheckIncludeFiles.c.o
+/usr/bin/mpicc  -D_GNU_SOURCE -fPIC  -w -w    -o CMakeFiles/cmTryCompileExec2366536063.dir/CheckIncludeFiles.c.o   -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:29:16: fatal error: dl.h: No such file or directory
+ #include <dl.h>
+                ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2366536063.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2366536063/fast] Error 2
+
+Source:
+/* */
+#include <stdio.h>
+#include <stddef.h>
+#include <sys/types.h>
+#include <inttypes.h>
+#include <dlfcn.h>
+#include <fcntl.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netdb.h>
+#include <limits.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <sys/select.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <time.h>
+#include <unistd.h>
+#include <signal.h>
+#include <errno.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <ctype.h>
+#include <dirent.h>
+#include <dl.h>
+
+
+int main(){return 0;}
+
+Determining if files stdio.h;stddef.h;sys/types.h;inttypes.h;dlfcn.h;fcntl.h;malloc.h;memory.h;netdb.h;limits.h;sys/socket.h;netinet/in.h;sys/select.h;stdint.h;stdlib.h;string.h;strings.h;sys/stat.h;sys/time.h;time.h;unistd.h;signal.h;errno.h;arpa/inet.h;arpa/nameser.h;ctype.h;dirent.h;float.h;fp_class.h exist failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec442922767/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec442922767.dir/build.make CMakeFiles/cmTryCompileExec442922767.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec442922767.dir/CheckIncludeFiles.c.o
+/usr/bin/mpicc  -D_GNU_SOURCE -fPIC  -w -w    -o CMakeFiles/cmTryCompileExec442922767.dir/CheckIncludeFiles.c.o   -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:30:22: fatal error: fp_class.h: No such file or directory
+ #include <fp_class.h>
+                      ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec442922767.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec442922767/fast] Error 2
+
+Source:
+/* */
+#include <stdio.h>
+#include <stddef.h>
+#include <sys/types.h>
+#include <inttypes.h>
+#include <dlfcn.h>
+#include <fcntl.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netdb.h>
+#include <limits.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <sys/select.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <time.h>
+#include <unistd.h>
+#include <signal.h>
+#include <errno.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <ctype.h>
+#include <dirent.h>
+#include <float.h>
+#include <fp_class.h>
+
+
+int main(){return 0;}
+
+Determining if files stdio.h;stddef.h;sys/types.h;inttypes.h;dlfcn.h;fcntl.h;malloc.h;memory.h;netdb.h;limits.h;sys/socket.h;netinet/in.h;sys/select.h;stdint.h;stdlib.h;string.h;strings.h;sys/stat.h;sys/time.h;time.h;unistd.h;signal.h;errno.h;arpa/inet.h;arpa/nameser.h;ctype.h;dirent.h;float.h;math.h;nan.h exist failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec862393320/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec862393320.dir/build.make CMakeFiles/cmTryCompileExec862393320.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec862393320.dir/CheckIncludeFiles.c.o
+/usr/bin/mpicc  -D_GNU_SOURCE -fPIC  -w -w    -o CMakeFiles/cmTryCompileExec862393320.dir/CheckIncludeFiles.c.o   -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:31:17: fatal error: nan.h: No such file or directory
+ #include <nan.h>
+                 ^
+compilation terminated.
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec862393320.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec862393320/fast] Error 2
+
+Source:
+/* */
+#include <stdio.h>
+#include <stddef.h>
+#include <sys/types.h>
+#include <inttypes.h>
+#include <dlfcn.h>
+#include <fcntl.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netdb.h>
+#include <limits.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <sys/select.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <time.h>
+#include <unistd.h>
+#include <signal.h>
+#include <errno.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <ctype.h>
+#include <dirent.h>
+#include <float.h>
+#include <math.h>
+#include <nan.h>
+
+
+int main(){return 0;}
+
+Determining if files stdio.h;stddef.h;sys/types.h;inttypes.h;dlfcn.h;fcntl.h;malloc.h;memory.h;netdb.h;limits.h;sys/socket.h;netinet/in.h;sys/select.h;stdint.h;stdlib.h;string.h;strings.h;sys/stat.h;sys/time.h;time.h;unistd.h;signal.h;errno.h;arpa/inet.h;arpa/nameser.h;ctype.h;dirent.h;float.h;math.h;ndir.h exist failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1517041273/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1517041273.dir/build.make CMakeFiles/cmTryCompileExec1517041273.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1517041273.dir/CheckIncludeFiles.c.o
+/usr/bin/mpicc  -D_GNU_SOURCE -fPIC  -w -w    -o CMakeFiles/cmTryCompileExec1517041273.dir/CheckIncludeFiles.c.o   -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:31:18: fatal error: ndir.h: No such file or directory
+ #include <ndir.h>
+                  ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1517041273.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1517041273/fast] Error 2
+
+Source:
+/* */
+#include <stdio.h>
+#include <stddef.h>
+#include <sys/types.h>
+#include <inttypes.h>
+#include <dlfcn.h>
+#include <fcntl.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netdb.h>
+#include <limits.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <sys/select.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <time.h>
+#include <unistd.h>
+#include <signal.h>
+#include <errno.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <ctype.h>
+#include <dirent.h>
+#include <float.h>
+#include <math.h>
+#include <ndir.h>
+
+
+int main(){return 0;}
+
+Determining if the fpclass exist failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec782310335/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec782310335.dir/build.make CMakeFiles/cmTryCompileExec782310335.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec782310335.dir/CheckSymbolExists.c.o
+/usr/bin/mpicc  -D_GNU_SOURCE -fPIC  -w -w    -o CMakeFiles/cmTryCompileExec782310335.dir/CheckSymbolExists.c.o   -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:41:19: error: ‘fpclass’ undeclared (first use in this function)
+   return ((int*)(&fpclass))[argc];
+                   ^
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:41:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTryCompileExec782310335.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec782310335/fast] Error 2
+
+File /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <stddef.h>
+#include <sys/types.h>
+#include <inttypes.h>
+#include <dlfcn.h>
+#include <fcntl.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netdb.h>
+#include <limits.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <sys/select.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <time.h>
+#include <unistd.h>
+#include <signal.h>
+#include <errno.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <ctype.h>
+#include <dirent.h>
+#include <float.h>
+#include <math.h>
+#include <pthread.h>
+#include <resolv.h>
+#include <stdarg.h>
+#include <sys/mman.h>
+#include <sys/timeb.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fpclass
+  return ((int*)(&fpclass))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fp_class exist failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2230179695/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2230179695.dir/build.make CMakeFiles/cmTryCompileExec2230179695.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2230179695.dir/CheckSymbolExists.c.o
+/usr/bin/mpicc  -D_GNU_SOURCE -fPIC  -w -w    -o CMakeFiles/cmTryCompileExec2230179695.dir/CheckSymbolExists.c.o   -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:41:19: error: ‘fp_class’ undeclared (first use in this function)
+   return ((int*)(&fp_class))[argc];
+                   ^
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:41:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTryCompileExec2230179695.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2230179695/fast] Error 2
+
+File /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <stddef.h>
+#include <sys/types.h>
+#include <inttypes.h>
+#include <dlfcn.h>
+#include <fcntl.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netdb.h>
+#include <limits.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <sys/select.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <time.h>
+#include <unistd.h>
+#include <signal.h>
+#include <errno.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <ctype.h>
+#include <dirent.h>
+#include <float.h>
+#include <math.h>
+#include <pthread.h>
+#include <resolv.h>
+#include <stdarg.h>
+#include <sys/mman.h>
+#include <sys/timeb.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fp_class
+  return ((int*)(&fp_class))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _stat exist failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1552197169/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1552197169.dir/build.make CMakeFiles/cmTryCompileExec1552197169.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1552197169.dir/CheckSymbolExists.c.o
+/usr/bin/mpicc  -D_GNU_SOURCE -fPIC  -w -w    -o CMakeFiles/cmTryCompileExec1552197169.dir/CheckSymbolExists.c.o   -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:41:19: error: ‘_stat’ undeclared (first use in this function)
+   return ((int*)(&_stat))[argc];
+                   ^
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:41:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTryCompileExec1552197169.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1552197169/fast] Error 2
+
+File /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+#include <stddef.h>
+#include <sys/types.h>
+#include <inttypes.h>
+#include <dlfcn.h>
+#include <fcntl.h>
+#include <malloc.h>
+#include <memory.h>
+#include <netdb.h>
+#include <limits.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <sys/select.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <time.h>
+#include <unistd.h>
+#include <signal.h>
+#include <errno.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <ctype.h>
+#include <dirent.h>
+#include <float.h>
+#include <math.h>
+#include <pthread.h>
+#include <resolv.h>
+#include <stdarg.h>
+#include <sys/mman.h>
+#include <sys/timeb.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _stat
+  return ((int*)(&_stat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Checking for DIR in sys/ndir.h failed to compile with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/VTK/ThirdParty/libxml2/vtklibxml2/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3553100046/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3553100046.dir/build.make CMakeFiles/cmTryCompileExec3553100046.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/VTK/ThirdParty/libxml2/vtklibxml2/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/VTK/ThirdParty/libxml2/vtklibxml2/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3553100046.dir/platformTestsC.c.o
+/usr/bin/mpicc  -DTEST_HAVE_SYS_NDIR_H -fPIC  -w -w    -o CMakeFiles/cmTryCompileExec3553100046.dir/platformTestsC.c.o   -c /home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/libxml2/vtklibxml2/platformTestsC.c
+/home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/libxml2/vtklibxml2/platformTestsC.c:82:22: fatal error: sys/ndir.h: No such file or directory
+ #include <sys/ndir.h>
+                      ^
+compilation terminated.
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/VTK/ThirdParty/libxml2/vtklibxml2/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3553100046.dir/platformTestsC.c.o] Error 1
+make: *** [cmTryCompileExec3553100046/fast] Error 2
+
+
+Determining if the function WSAStartup exists in the ws2_32;m;dl failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec192996923/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec192996923.dir/build.make CMakeFiles/cmTryCompileExec192996923.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec192996923.dir/CheckFunctionExists.c.o
+/usr/bin/mpicc   -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=WSAStartup   -o CMakeFiles/cmTryCompileExec192996923.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec192996923
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec192996923.dir/link.txt --verbose=1
+/usr/bin/mpicc  -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=WSAStartup    CMakeFiles/cmTryCompileExec192996923.dir/CheckFunctionExists.c.o  -o cmTryCompileExec192996923 -rdynamic -lws2_32 -lm -ldl 
+/usr/bin/ld: cannot find -lws2_32
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec192996923] Error 1
+make: *** [cmTryCompileExec192996923/fast] Error 2
+
+
+Determining if the function gethostbyname exists in the wsock32;m;dl failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1642366787/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1642366787.dir/build.make CMakeFiles/cmTryCompileExec1642366787.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1642366787.dir/CheckFunctionExists.c.o
+/usr/bin/mpicc   -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec1642366787.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1642366787
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1642366787.dir/link.txt --verbose=1
+/usr/bin/mpicc  -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec1642366787.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1642366787 -rdynamic -lwsock32 -lm -ldl 
+/usr/bin/ld: cannot find -lwsock32
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec1642366787] Error 1
+make: *** [cmTryCompileExec1642366787/fast] Error 2
+
+
+Determining if the function gethostname exists in the ucb;m;dl failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2325740045/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2325740045.dir/build.make CMakeFiles/cmTryCompileExec2325740045.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2325740045.dir/CheckFunctionExists.c.o
+/usr/bin/mpicc   -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=gethostname   -o CMakeFiles/cmTryCompileExec2325740045.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2325740045
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2325740045.dir/link.txt --verbose=1
+/usr/bin/mpicc  -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=gethostname    CMakeFiles/cmTryCompileExec2325740045.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2325740045 -rdynamic -lucb -lm -ldl 
+/usr/bin/ld: cannot find -lucb
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2325740045] Error 1
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2325740045/fast] Error 2
+
+
+Determining if the function connect exists in the socket;m;dl failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2078528752/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2078528752.dir/build.make CMakeFiles/cmTryCompileExec2078528752.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2078528752.dir/CheckFunctionExists.c.o
+/usr/bin/mpicc   -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec2078528752.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2078528752
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2078528752.dir/link.txt --verbose=1
+/usr/bin/mpicc  -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec2078528752.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2078528752 -rdynamic -lsocket -lm -ldl 
+/usr/bin/ld: cannot find -lsocket
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec2078528752] Error 1
+make: *** [cmTryCompileExec2078528752/fast] Error 2
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec565955568/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec565955568.dir/build.make CMakeFiles/cmTryCompileExec565955568.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec565955568.dir/TestEndianess.c.o
+/usr/bin/mpicc   -fPIC  -w -w    -o CMakeFiles/cmTryCompileExec565955568.dir/TestEndianess.c.o   -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec565955568
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec565955568.dir/link.txt --verbose=1
+/usr/bin/mpicc  -fPIC  -w -w     CMakeFiles/cmTryCompileExec565955568.dir/TestEndianess.c.o  -o cmTryCompileExec565955568 -rdynamic 
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function clock_gettime exists in the posix4 failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3813374647/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3813374647.dir/build.make CMakeFiles/cmTryCompileExec3813374647.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3813374647.dir/CheckFunctionExists.c.o
+/usr/bin/mpicc   -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTryCompileExec3813374647.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3813374647
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3813374647.dir/link.txt --verbose=1
+/usr/bin/mpicc  -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTryCompileExec3813374647.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3813374647 -rdynamic -lposix4 -lm -ldl 
+/usr/bin/ld: cannot find -lposix4
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3813374647] Error 1
+make: *** [cmTryCompileExec3813374647/fast] Error 2
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;features.h;dirent.h;stdint.h;mach/mach_time.h exist failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec869507157/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec869507157.dir/build.make CMakeFiles/cmTryCompileExec869507157.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec869507157.dir/CheckIncludeFiles.c.o
+/usr/bin/mpicc   -fPIC  -w -w    -o CMakeFiles/cmTryCompileExec869507157.dir/CheckIncludeFiles.c.o   -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:14:28: fatal error: mach/mach_time.h: No such file or directory
+ #include <mach/mach_time.h>
+                            ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec869507157.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec869507157/fast] Error 2
+
+Source:
+/* */
+#include <sys/resource.h>
+#include <sys/time.h>
+#include <unistd.h>
+#include <sys/ioctl.h>
+#include <sys/stat.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <stddef.h>
+#include <setjmp.h>
+#include <features.h>
+#include <dirent.h>
+#include <stdint.h>
+#include <mach/mach_time.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;features.h;dirent.h;stdint.h;io.h exist failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec14079507/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec14079507.dir/build.make CMakeFiles/cmTryCompileExec14079507.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec14079507.dir/CheckIncludeFiles.c.o
+/usr/bin/mpicc   -fPIC  -w -w    -o CMakeFiles/cmTryCompileExec14079507.dir/CheckIncludeFiles.c.o   -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:14:16: fatal error: io.h: No such file or directory
+ #include <io.h>
+                ^
+compilation terminated.
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec14079507.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec14079507/fast] Error 2
+
+Source:
+/* */
+#include <sys/resource.h>
+#include <sys/time.h>
+#include <unistd.h>
+#include <sys/ioctl.h>
+#include <sys/stat.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <stddef.h>
+#include <setjmp.h>
+#include <features.h>
+#include <dirent.h>
+#include <stdint.h>
+#include <io.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;features.h;dirent.h;stdint.h;winsock2.h exist failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1584701682/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1584701682.dir/build.make CMakeFiles/cmTryCompileExec1584701682.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1584701682.dir/CheckIncludeFiles.c.o
+/usr/bin/mpicc   -fPIC  -w -w    -o CMakeFiles/cmTryCompileExec1584701682.dir/CheckIncludeFiles.c.o   -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:14:22: fatal error: winsock2.h: No such file or directory
+ #include <winsock2.h>
+                      ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1584701682.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1584701682/fast] Error 2
+
+Source:
+/* */
+#include <sys/resource.h>
+#include <sys/time.h>
+#include <unistd.h>
+#include <sys/ioctl.h>
+#include <sys/stat.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <stddef.h>
+#include <setjmp.h>
+#include <features.h>
+#include <dirent.h>
+#include <stdint.h>
+#include <winsock2.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;features.h;dirent.h;stdint.h;sys/timeb.h;globus/common.h exist failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec249250619/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec249250619.dir/build.make CMakeFiles/cmTryCompileExec249250619.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec249250619.dir/CheckIncludeFiles.c.o
+/usr/bin/mpicc   -fPIC  -w -w    -o CMakeFiles/cmTryCompileExec249250619.dir/CheckIncludeFiles.c.o   -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:15:27: fatal error: globus/common.h: No such file or directory
+ #include <globus/common.h>
+                           ^
+compilation terminated.
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec249250619.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec249250619/fast] Error 2
+
+Source:
+/* */
+#include <sys/resource.h>
+#include <sys/time.h>
+#include <unistd.h>
+#include <sys/ioctl.h>
+#include <sys/stat.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <stddef.h>
+#include <setjmp.h>
+#include <features.h>
+#include <dirent.h>
+#include <stdint.h>
+#include <sys/timeb.h>
+#include <globus/common.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;features.h;dirent.h;stdint.h;sys/timeb.h;pdb.h exist failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3391626822/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3391626822.dir/build.make CMakeFiles/cmTryCompileExec3391626822.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3391626822.dir/CheckIncludeFiles.c.o
+/usr/bin/mpicc   -fPIC  -w -w    -o CMakeFiles/cmTryCompileExec3391626822.dir/CheckIncludeFiles.c.o   -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:15:17: fatal error: pdb.h: No such file or directory
+ #include <pdb.h>
+                 ^
+compilation terminated.
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3391626822.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec3391626822/fast] Error 2
+
+Source:
+/* */
+#include <sys/resource.h>
+#include <sys/time.h>
+#include <unistd.h>
+#include <sys/ioctl.h>
+#include <sys/stat.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <stddef.h>
+#include <setjmp.h>
+#include <features.h>
+#include <dirent.h>
+#include <stdint.h>
+#include <sys/timeb.h>
+#include <pdb.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;features.h;dirent.h;stdint.h;sys/timeb.h;pthread.h;srbclient.h exist failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4008655250/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4008655250.dir/build.make CMakeFiles/cmTryCompileExec4008655250.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4008655250.dir/CheckIncludeFiles.c.o
+/usr/bin/mpicc   -fPIC  -w -w    -o CMakeFiles/cmTryCompileExec4008655250.dir/CheckIncludeFiles.c.o   -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:16:23: fatal error: srbclient.h: No such file or directory
+ #include <srbclient.h>
+                       ^
+compilation terminated.
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec4008655250.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec4008655250/fast] Error 2
+
+Source:
+/* */
+#include <sys/resource.h>
+#include <sys/time.h>
+#include <unistd.h>
+#include <sys/ioctl.h>
+#include <sys/stat.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <stddef.h>
+#include <setjmp.h>
+#include <features.h>
+#include <dirent.h>
+#include <stdint.h>
+#include <sys/timeb.h>
+#include <pthread.h>
+#include <srbclient.h>
+
+
+int main(){return 0;}
+
+Determining size of __int64 failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec596169953/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec596169953.dir/build.make CMakeFiles/cmTryCompileExec596169953.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec596169953.dir/H5_SIZEOF___INT64.c.o
+/usr/bin/mpicc  -D_BSD_SOURCE -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -fPIC  -w -w    -o CMakeFiles/cmTryCompileExec596169953.dir/H5_SIZEOF___INT64.c.o   -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c:17:22: error: ‘__int64’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int64))
+                      ^
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec596169953.dir/H5_SIZEOF___INT64.c.o] Error 1
+make: *** [cmTryCompileExec596169953/fast] Error 2
+
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the variable CLOCK_MONOTONIC exists failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3780351684/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3780351684.dir/build.make CMakeFiles/cmTryCompileExec3780351684.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3780351684.dir/CheckVariableExists.c.o
+/usr/bin/mpicc  -D_BSD_SOURCE -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -fPIC  -w -w -DCHECK_VARIABLE_EXISTS=CLOCK_MONOTONIC   -o CMakeFiles/cmTryCompileExec3780351684.dir/CheckVariableExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckVariableExists.c
+Linking C executable cmTryCompileExec3780351684
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3780351684.dir/link.txt --verbose=1
+/usr/bin/mpicc  -fPIC  -w -w -DCHECK_VARIABLE_EXISTS=CLOCK_MONOTONIC    CMakeFiles/cmTryCompileExec3780351684.dir/CheckVariableExists.c.o  -o cmTryCompileExec3780351684 -rdynamic -lm -ldl 
+CMakeFiles/cmTryCompileExec3780351684.dir/CheckVariableExists.c.o: In function `main':
+CheckVariableExists.c:(.text+0x26): undefined reference to `CLOCK_MONOTONIC'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3780351684] Error 1
+make: *** [cmTryCompileExec3780351684/fast] Error 2
+
+
+Performing Other Test HAVE___TM_GMTOFF failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec376091648/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec376091648.dir/build.make CMakeFiles/cmTryCompileExec376091648.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec376091648.dir/HDF5Tests.c.o
+/usr/bin/mpicc   -fPIC  -w -w -DHAVE___TM_GMTOFF  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTryCompileExec376091648.dir/HDF5Tests.c.o   -c /home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake/HDF5Tests.c
+/home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake/HDF5Tests.c: In function ‘main’:
+/home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake/HDF5Tests.c:191:29: error: ‘struct tm’ has no member named ‘__tm_gmtoff’
+ SIMPLE_TEST(struct tm tm; tm.__tm_gmtoff=0);
+                             ^
+/home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake/HDF5Tests.c:1:36: note: in definition of macro ‘SIMPLE_TEST’
+ #define SIMPLE_TEST(x) int main(){ x; return 0; }
+                                    ^
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec376091648.dir/HDF5Tests.c.o] Error 1
+make: *** [cmTryCompileExec376091648/fast] Error 2
+
+Performing Other Test HAVE_STRUCT_VIDEOCONFIG failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1312787160/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1312787160.dir/build.make CMakeFiles/cmTryCompileExec1312787160.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1312787160.dir/HDF5Tests.c.o
+/usr/bin/mpicc   -fPIC  -w -w -DHAVE_STRUCT_VIDEOCONFIG  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTryCompileExec1312787160.dir/HDF5Tests.c.o   -c /home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake/HDF5Tests.c
+/home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake/HDF5Tests.c: In function ‘main’:
+/home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake/HDF5Tests.c:460:32: error: storage size of ‘w’ isn’t known
+ SIMPLE_TEST(struct videoconfig w; w.numtextcols=0);
+                                ^
+/home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake/HDF5Tests.c:1:36: note: in definition of macro ‘SIMPLE_TEST’
+ #define SIMPLE_TEST(x) int main(){ x; return 0; }
+                                    ^
+make[1]: *** [CMakeFiles/cmTryCompileExec1312787160.dir/HDF5Tests.c.o] Error 1
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1312787160/fast] Error 2
+
+Performing Other Test HAVE_STRUCT_TEXT_INFO failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1146411483/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1146411483.dir/build.make CMakeFiles/cmTryCompileExec1146411483.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1146411483.dir/HDF5Tests.c.o
+/usr/bin/mpicc   -fPIC  -w -w -DHAVE_STRUCT_TEXT_INFO  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTryCompileExec1146411483.dir/HDF5Tests.c.o   -c /home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake/HDF5Tests.c
+/home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake/HDF5Tests.c: In function ‘main’:
+/home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake/HDF5Tests.c:466:30: error: storage size of ‘w’ isn’t known
+ SIMPLE_TEST(struct text_info w; w.screenwidth=0);
+                              ^
+/home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake/HDF5Tests.c:1:36: note: in definition of macro ‘SIMPLE_TEST’
+ #define SIMPLE_TEST(x) int main(){ x; return 0; }
+                                    ^
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1146411483.dir/HDF5Tests.c.o] Error 1
+make: *** [cmTryCompileExec1146411483/fast] Error 2
+
+Determining if the function _getvideoconfig exists failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec271887386/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec271887386.dir/build.make CMakeFiles/cmTryCompileExec271887386.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec271887386.dir/CheckFunctionExists.c.o
+/usr/bin/mpicc  -D_BSD_SOURCE -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=_getvideoconfig   -o CMakeFiles/cmTryCompileExec271887386.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec271887386
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec271887386.dir/link.txt --verbose=1
+/usr/bin/mpicc  -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=_getvideoconfig    CMakeFiles/cmTryCompileExec271887386.dir/CheckFunctionExists.c.o  -o cmTryCompileExec271887386 -rdynamic -lm -ldl 
+CMakeFiles/cmTryCompileExec271887386.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_getvideoconfig'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec271887386] Error 1
+make: *** [cmTryCompileExec271887386/fast] Error 2
+
+
+Determining if the function gettextinfo exists failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3351528727/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3351528727.dir/build.make CMakeFiles/cmTryCompileExec3351528727.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3351528727.dir/CheckFunctionExists.c.o
+/usr/bin/mpicc  -D_BSD_SOURCE -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=gettextinfo   -o CMakeFiles/cmTryCompileExec3351528727.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3351528727
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3351528727.dir/link.txt --verbose=1
+/usr/bin/mpicc  -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=gettextinfo    CMakeFiles/cmTryCompileExec3351528727.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3351528727 -rdynamic -lm -ldl 
+CMakeFiles/cmTryCompileExec3351528727.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `gettextinfo'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3351528727] Error 1
+make: *** [cmTryCompileExec3351528727/fast] Error 2
+
+
+Determining if the function _scrsize exists failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1153345188/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1153345188.dir/build.make CMakeFiles/cmTryCompileExec1153345188.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1153345188.dir/CheckFunctionExists.c.o
+/usr/bin/mpicc  -D_BSD_SOURCE -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=_scrsize   -o CMakeFiles/cmTryCompileExec1153345188.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1153345188
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1153345188.dir/link.txt --verbose=1
+/usr/bin/mpicc  -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=_scrsize    CMakeFiles/cmTryCompileExec1153345188.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1153345188 -rdynamic -lm -ldl 
+CMakeFiles/cmTryCompileExec1153345188.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_scrsize'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec1153345188] Error 1
+make: *** [cmTryCompileExec1153345188/fast] Error 2
+
+
+Determining if the function GetConsoleScreenBufferInfo exists failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4269620965/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4269620965.dir/build.make CMakeFiles/cmTryCompileExec4269620965.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4269620965.dir/CheckFunctionExists.c.o
+/usr/bin/mpicc  -D_BSD_SOURCE -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=GetConsoleScreenBufferInfo   -o CMakeFiles/cmTryCompileExec4269620965.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4269620965
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4269620965.dir/link.txt --verbose=1
+/usr/bin/mpicc  -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=GetConsoleScreenBufferInfo    CMakeFiles/cmTryCompileExec4269620965.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4269620965 -rdynamic -lm -ldl 
+CMakeFiles/cmTryCompileExec4269620965.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `GetConsoleScreenBufferInfo'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec4269620965] Error 1
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4269620965/fast] Error 2
+
+
+Determining if the function setsysinfo exists failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec388067315/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec388067315.dir/build.make CMakeFiles/cmTryCompileExec388067315.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec388067315.dir/CheckFunctionExists.c.o
+/usr/bin/mpicc  -D_BSD_SOURCE -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=setsysinfo   -o CMakeFiles/cmTryCompileExec388067315.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec388067315
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec388067315.dir/link.txt --verbose=1
+/usr/bin/mpicc  -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=setsysinfo    CMakeFiles/cmTryCompileExec388067315.dir/CheckFunctionExists.c.o  -o cmTryCompileExec388067315 -rdynamic -lm -ldl 
+CMakeFiles/cmTryCompileExec388067315.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `setsysinfo'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec388067315] Error 1
+make: *** [cmTryCompileExec388067315/fast] Error 2
+
+
+Determining if the function sigsetjmp exists failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2749584555/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2749584555.dir/build.make CMakeFiles/cmTryCompileExec2749584555.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2749584555.dir/CheckFunctionExists.c.o
+/usr/bin/mpicc  -D_BSD_SOURCE -D_DEFAULT_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=sigsetjmp   -o CMakeFiles/cmTryCompileExec2749584555.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2749584555
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2749584555.dir/link.txt --verbose=1
+/usr/bin/mpicc  -fPIC  -w -w -DCHECK_FUNCTION_EXISTS=sigsetjmp    CMakeFiles/cmTryCompileExec2749584555.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2749584555 -rdynamic -lm -ldl 
+CMakeFiles/cmTryCompileExec2749584555.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `sigsetjmp'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec2749584555] Error 1
+make: *** [cmTryCompileExec2749584555/fast] Error 2
+
+
+Performing CXX Test OLD_HEADER_FILENAME failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3010617460/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3010617460.dir/build.make CMakeFiles/cmTryCompileExec3010617460.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3010617460.dir/HDF5CXXTests.cpp.o
+/usr/bin/c++    -fPIC  -w -w -DOLD_HEADER_FILENAME  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTryCompileExec3010617460.dir/HDF5CXXTests.cpp.o -c /home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake/HDF5CXXTests.cpp
+Linking CXX executable cmTryCompileExec3010617460
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3010617460.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC  -w -w -DOLD_HEADER_FILENAME  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE    CMakeFiles/cmTryCompileExec3010617460.dir/HDF5CXXTests.cpp.o  -o cmTryCompileExec3010617460 -rdynamic -lm -ldl 
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+
+Performing CXX Test H5_NO_NAMESPACE failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec986628372/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec986628372.dir/build.make CMakeFiles/cmTryCompileExec986628372.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec986628372.dir/HDF5CXXTests.cpp.o
+/usr/bin/c++    -fPIC  -w -w -DH5_NO_NAMESPACE  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTryCompileExec986628372.dir/HDF5CXXTests.cpp.o -c /home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake/HDF5CXXTests.cpp
+Linking CXX executable cmTryCompileExec986628372
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec986628372.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC  -w -w -DH5_NO_NAMESPACE  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE    CMakeFiles/cmTryCompileExec986628372.dir/HDF5CXXTests.cpp.o  -o cmTryCompileExec986628372 -rdynamic -lm -ldl 
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+
+Performing CXX Test H5_NO_STD failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2562721643/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2562721643.dir/build.make CMakeFiles/cmTryCompileExec2562721643.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2562721643.dir/HDF5CXXTests.cpp.o
+/usr/bin/c++    -fPIC  -w -w -DH5_NO_STD  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTryCompileExec2562721643.dir/HDF5CXXTests.cpp.o -c /home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake/HDF5CXXTests.cpp
+Linking CXX executable cmTryCompileExec2562721643
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2562721643.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC  -w -w -DH5_NO_STD  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE    CMakeFiles/cmTryCompileExec2562721643.dir/HDF5CXXTests.cpp.o  -o cmTryCompileExec2562721643 -rdynamic -lm -ldl 
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+
+Performing CXX Test BOOL_NOTDEFINED failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec576820934/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec576820934.dir/build.make CMakeFiles/cmTryCompileExec576820934.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec576820934.dir/HDF5CXXTests.cpp.o
+/usr/bin/c++    -fPIC  -w -w -DBOOL_NOTDEFINED  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTryCompileExec576820934.dir/HDF5CXXTests.cpp.o -c /home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake/HDF5CXXTests.cpp
+Linking CXX executable cmTryCompileExec576820934
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec576820934.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC  -w -w -DBOOL_NOTDEFINED  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE    CMakeFiles/cmTryCompileExec576820934.dir/HDF5CXXTests.cpp.o  -o cmTryCompileExec576820934 -rdynamic -lm -ldl 
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+
+Performing CXX Test NO_STATIC_CAST failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3148955458/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3148955458.dir/build.make CMakeFiles/cmTryCompileExec3148955458.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3148955458.dir/HDF5CXXTests.cpp.o
+/usr/bin/c++    -fPIC  -w -w -DNO_STATIC_CAST  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE   -o CMakeFiles/cmTryCompileExec3148955458.dir/HDF5CXXTests.cpp.o -c /home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake/HDF5CXXTests.cpp
+Linking CXX executable cmTryCompileExec3148955458
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3148955458.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC  -w -w -DNO_STATIC_CAST  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE    CMakeFiles/cmTryCompileExec3148955458.dir/HDF5CXXTests.cpp.o  -o cmTryCompileExec3148955458 -rdynamic -lm -ldl 
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+
+Test H5_FP_TO_ULLONG_RIGHT_MAXIMUM Run failed with the following output and exit code:
+ Change Dir: /home/mpas/Desktop/Source/PV/build/VTK/ThirdParty/hdf5/vtkhdf5/CMake/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3769048980/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3769048980.dir/build.make CMakeFiles/cmTryCompileExec3769048980.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/VTK/ThirdParty/hdf5/vtkhdf5/CMake/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/VTK/ThirdParty/hdf5/vtkhdf5/CMake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3769048980.dir/ConversionTests.c.o
+/usr/bin/mpicc   -fPIC  -w -w -DH5_FP_TO_ULLONG_RIGHT_MAXIMUM_TEST   -o CMakeFiles/cmTryCompileExec3769048980.dir/ConversionTests.c.o   -c /home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/hdf5/vtkhdf5/config/cmake/ConversionTests.c
+Linking C executable cmTryCompileExec3769048980
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3769048980.dir/link.txt --verbose=1
+/usr/bin/mpicc  -fPIC  -w -w -DH5_FP_TO_ULLONG_RIGHT_MAXIMUM_TEST    CMakeFiles/cmTryCompileExec3769048980.dir/ConversionTests.c.o  -o cmTryCompileExec3769048980 -rdynamic 
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/VTK/ThirdParty/hdf5/vtkhdf5/CMake/CMakeFiles/CMakeTmp'
+
+Determining size of uchar failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1424606974/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1424606974.dir/build.make CMakeFiles/cmTryCompileExec1424606974.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1424606974.dir/SIZEOF_UCHAR.c.o
+/usr/bin/mpicc   -fPIC  -w -w    -o CMakeFiles/cmTryCompileExec1424606974.dir/SIZEOF_UCHAR.c.o   -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:17:22: error: ‘uchar’ undeclared here (not in a function)
+ #define SIZE (sizeof(uchar))
+                      ^
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1424606974.dir/SIZEOF_UCHAR.c.o] Error 1
+make: *** [cmTryCompileExec1424606974/fast] Error 2
+
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uchar))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int64 failed with the following output:
+Change Dir: /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2726091340/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2726091340.dir/build.make CMakeFiles/cmTryCompileExec2726091340.dir/build
+make[1]: Entering directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2726091340.dir/ICET_SIZEOF___INT64.c.o
+/usr/bin/mpicc   -fPIC  -w -w    -o CMakeFiles/cmTryCompileExec2726091340.dir/ICET_SIZEOF___INT64.c.o   -c /home/mpas/Desktop/Source/PV/build/CMakeFiles/CheckTypeSize/ICET_SIZEOF___INT64.c
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CheckTypeSize/ICET_SIZEOF___INT64.c:17:22: error: ‘__int64’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int64))
+                      ^
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CheckTypeSize/ICET_SIZEOF___INT64.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+make[1]: *** [CMakeFiles/cmTryCompileExec2726091340.dir/ICET_SIZEOF___INT64.c.o] Error 1
+make[1]: Leaving directory `/home/mpas/Desktop/Source/PV/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2726091340/fast] Error 2
+
+/home/mpas/Desktop/Source/PV/build/CMakeFiles/CheckTypeSize/ICET_SIZEOF___INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+

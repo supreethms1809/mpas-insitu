@@ -1,0 +1,4 @@
+# Target labels
+ vtkWrappingTools
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Wrapping/Tools/vtkWrapPythonInit.c

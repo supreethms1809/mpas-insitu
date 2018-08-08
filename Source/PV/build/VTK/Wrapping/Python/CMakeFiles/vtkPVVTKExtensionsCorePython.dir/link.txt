@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkPVVTKExtensionsCorePython-pv4.3.a  CMakeFiles/vtkPVVTKExtensionsCorePython.dir/vtkPVVTKExtensionsCorePythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkPVVTKExtensionsCorePython-pv4.3.a

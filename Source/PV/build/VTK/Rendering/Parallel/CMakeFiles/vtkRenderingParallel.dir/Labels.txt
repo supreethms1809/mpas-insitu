@@ -1,0 +1,40 @@
+# Target labels
+ vtkRenderingParallel
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkClientServerCompositePass.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkClientServerSynchronizedRenderers.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkCompositedSynchronizedRenderers.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkCompositer.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkCompositeRenderManager.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkCompositeRGBAPass.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkCompositeZPass.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkCompressCompositer.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkParallelRenderManager.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkPHardwareSelector.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkSynchronizedRenderers.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkSynchronizedRenderWindows.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkTreeCompositer.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkImageRenderManager.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Rendering/Parallel/vtkCompositeZPassShader_fs.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Rendering/Parallel/vtkCompositeZPassFS.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkClientServerCompositePass.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkClientServerSynchronizedRenderers.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkCompositedSynchronizedRenderers.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkCompositer.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkCompositeRenderManager.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkCompositeRGBAPass.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkCompositeZPass.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkCompressCompositer.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkParallelRenderManager.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkPHardwareSelector.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkSynchronizedRenderers.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkSynchronizedRenderWindows.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkTreeCompositer.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Rendering/Parallel/vtkImageRenderManager.h
+/home/mpas/Desktop/Source/PV/build/VTK/Rendering/Parallel/vtkCompositeZPassShader_fs.h
+/home/mpas/Desktop/Source/PV/build/VTK/Rendering/Parallel/vtkCompositeZPassFS.h
+/home/mpas/Desktop/Source/PV/build/VTK/Rendering/Parallel/vtkRenderingParallelModule.h
+/home/mpas/Desktop/Source/PV/build/VTK/Rendering/Parallel/vtkRenderingParallelHierarchy.stamp.txt
+/home/mpas/Desktop/Source/PV/build/VTK/Rendering/Parallel/vtkCompositeZPassShader_fs.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Rendering/Parallel/vtkCompositeZPassFS.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Rendering/Parallel/vtkRenderingParallelHierarchy.stamp.txt.rule

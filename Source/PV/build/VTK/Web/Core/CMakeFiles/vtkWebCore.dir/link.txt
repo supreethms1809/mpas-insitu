@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkWebCore-pv4.3.a  CMakeFiles/vtkWebCore.dir/vtkDataEncoder.cxx.o CMakeFiles/vtkWebCore.dir/vtkWebApplication.cxx.o CMakeFiles/vtkWebCore.dir/vtkWebInteractionEvent.cxx.o CMakeFiles/vtkWebCore.dir/vtkWebUtilities.cxx.o CMakeFiles/vtkWebCore.dir/vtkObjectIdMap.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkWebCore-pv4.3.a

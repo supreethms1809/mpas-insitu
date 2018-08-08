@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOParallelNetCDFPython-pv4.3.a  CMakeFiles/vtkIOParallelNetCDFPython.dir/vtkIOParallelNetCDFPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOParallelNetCDFPython-pv4.3.a

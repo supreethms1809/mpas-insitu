@@ -1,0 +1,6 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkPVWebApplicationClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkParaViewWebCoreCSInit.cxx
+/home/mpas/Desktop/Source/PV/ParaView/Web/Core/vtkPVWebApplication.h

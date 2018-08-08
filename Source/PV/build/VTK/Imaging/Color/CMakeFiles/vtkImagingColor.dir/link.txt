@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkImagingColor-pv4.3.a  CMakeFiles/vtkImagingColor.dir/vtkImageHSIToRGB.cxx.o CMakeFiles/vtkImagingColor.dir/vtkImageHSVToRGB.cxx.o CMakeFiles/vtkImagingColor.dir/vtkImageLuminance.cxx.o CMakeFiles/vtkImagingColor.dir/vtkImageMapToRGBA.cxx.o CMakeFiles/vtkImagingColor.dir/vtkImageMapToWindowLevelColors.cxx.o CMakeFiles/vtkImagingColor.dir/vtkImageQuantizeRGBToIndex.cxx.o CMakeFiles/vtkImagingColor.dir/vtkImageRGBToHSI.cxx.o CMakeFiles/vtkImagingColor.dir/vtkImageRGBToHSV.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkImagingColor-pv4.3.a

@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkCommonDataModelPython-pv4.3.a  CMakeFiles/vtkCommonDataModelPython.dir/vtkCommonDataModelPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkCommonDataModelPython-pv4.3.a

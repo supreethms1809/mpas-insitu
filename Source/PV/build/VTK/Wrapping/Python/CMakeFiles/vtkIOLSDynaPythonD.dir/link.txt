@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOLSDynaPython27D-pv4.3.a  CMakeFiles/vtkIOLSDynaPythonD.dir/vtkLSDynaReaderPython.cxx.o CMakeFiles/vtkIOLSDynaPythonD.dir/vtkLSDynaSummaryParserPython.cxx.o CMakeFiles/vtkIOLSDynaPythonD.dir/vtkIOLSDynaPythonInitImpl.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOLSDynaPython27D-pv4.3.a

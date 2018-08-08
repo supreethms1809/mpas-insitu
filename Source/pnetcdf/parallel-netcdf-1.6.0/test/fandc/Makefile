@@ -1,0 +1,74 @@
+#
+# Copyright (C) 2003, Northwestern University and Argonne National Laboratory
+# See COPYRIGHT notice in top-level directory.
+#
+# $Id: Makefile.in 1885 2014-11-21 17:50:49Z wkliao $
+#
+# test/fandc/Makefile.  Generated from Makefile.in by configure.
+
+
+srcdir = .
+
+
+include ../../macros.make
+
+INCLUDES  = -I../../src/lib
+FPPFLAGS += -I../../src/libf -I../../src/libf90
+LIBS     := $(LIBRARY) $(LIBS) 
+
+C_SRCS   = pnctest.c \
+           csnap.c
+
+F77_SRCS = pnf_test.f \
+           pnctestf.f \
+           freeform.f
+
+F90_SRCS = fixedform.f90
+
+PROGS  = $(C_SRCS:.c=)
+OBJS   = $(C_SRCS:.c=.o)
+ifeq (yes, yes)
+PROGS += $(F77_SRCS:.f=)   $(F90_SRCS:.f90=)
+OBJS  += $(F77_SRCS:.f=.o) $(F90_SRCS:.f90=.o)
+endif
+
+GARBAGE      = $(PROGS) *.nc
+PACKING_LIST = $(C_SRCS) $(F77_SRCS) $(F90_SRCS) Makefile.in depend
+
+all: $(PROGS)
+
+pnctest: pnctest.o $(LIBRARY)
+	$(LINK.c) $< $(LDFLAGS) $(LIBS)
+
+csnap:  csnap.o $(LIBRARY)
+	$(LINK.c) $< $(LDFLAGS) $(LIBS) -lm
+
+pnctestf: pnctestf.o $(LIBRARY)
+	$(LINK.f) $< $(LDFLAGS) $(LIBS)
+
+pnf_test:  pnf_test.o $(LIBRARY)
+	$(LINK.f) $< $(LDFLAGS) $(LIBS)
+
+# check F77 program to see if accept Fortran free form
+freeform.o: freeform.f
+	$(COMPILE.f) -ffree-form $<
+
+freeform: freeform.o
+	$(LINK.f) $< $(LDFLAGS) $(LIBS)
+
+# check F90 program to see if accept Fortran fixed form
+fixedform.o: fixedform.f90
+	$(COMPILE.f90) -ffixed-form $<
+
+fixedform: fixedform.o
+	$(LINK.F90) $< $(LDFLAGS) $(LIBS)
+
+testing check verbose_testing:
+
+ptest ptests:
+
+include $(srcdir)/../../rules.make
+include $(srcdir)/depend
+
+$(LIBRARY): ;
+

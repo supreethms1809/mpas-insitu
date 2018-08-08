@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOXMLParser-pv4.3.a  CMakeFiles/vtkIOXMLParser.dir/vtkXMLDataParser.cxx.o CMakeFiles/vtkIOXMLParser.dir/vtkXMLParser.cxx.o CMakeFiles/vtkIOXMLParser.dir/vtkXMLUtilities.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOXMLParser-pv4.3.a

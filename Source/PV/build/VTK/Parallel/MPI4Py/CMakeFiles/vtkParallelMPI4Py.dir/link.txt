@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkParallelMPI4Py-pv4.3.a  CMakeFiles/vtkParallelMPI4Py.dir/vtkMPI4PyCommunicator.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkParallelMPI4Py-pv4.3.a

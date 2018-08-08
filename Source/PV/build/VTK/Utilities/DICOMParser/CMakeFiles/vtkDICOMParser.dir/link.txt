@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkDICOMParser-pv4.3.a  CMakeFiles/vtkDICOMParser.dir/DICOMFile.cxx.o CMakeFiles/vtkDICOMParser.dir/DICOMParser.cxx.o CMakeFiles/vtkDICOMParser.dir/DICOMAppHelper.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkDICOMParser-pv4.3.a

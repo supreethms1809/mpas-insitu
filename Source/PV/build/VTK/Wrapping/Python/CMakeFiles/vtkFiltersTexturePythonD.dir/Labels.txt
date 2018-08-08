@@ -1,0 +1,19 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkTextureMapToCylinderPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkTextureMapToPlanePython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkTextureMapToSpherePython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImplicitTextureCoordsPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkThresholdTextureCoordsPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkTransformTextureCoordsPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkTriangularTCoordsPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkFiltersTexturePythonInitImpl.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkTextureMapToCylinderPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkTextureMapToPlanePython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkTextureMapToSpherePython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkImplicitTextureCoordsPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkThresholdTextureCoordsPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkTransformTextureCoordsPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkTriangularTCoordsPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkFiltersTexturePythonInit.cxx.rule

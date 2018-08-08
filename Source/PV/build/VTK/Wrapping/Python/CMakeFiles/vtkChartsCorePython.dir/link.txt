@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkChartsCorePython-pv4.3.a  CMakeFiles/vtkChartsCorePython.dir/vtkChartsCorePythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkChartsCorePython-pv4.3.a

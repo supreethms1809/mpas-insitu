@@ -1,0 +1,68 @@
+
+<html>
+    <head>
+        <title>Annotate Global Data</title>
+        <meta name="proxy_name" contents="filters.AnnotateGlobalData"/>
+        <meta name="filename" contents="filters.AnnotateGlobalData.html"/>
+    </head>
+    <body>
+        <h2>Annotate Global Data (AnnotateGlobalData)</h2>
+        <i>
+            <p>Filter for annotating with global data (designed for ExodusII reader)</p>
+        </i>
+        <div class="description">
+Annotate Global Data provides a simpler API for creating text
+annotations using vtkPythonAnnotationFilter. Instead of users
+specifying the annotation expression, this filter determines the
+expression based on the array selected by limiting the scope of the
+functionality. This filter only allows the user to annotate using
+"global-data" aka field data and specify the string prefix to use.  If
+the field array chosen has as many elements as number of timesteps,
+the array is assumed to be "temporal" and indexed using the current
+timestep.
+      </div>
+        <table width="97%" border="2px">
+            <tr bgcolor="#9acd32">
+                <th>Property</th>
+                <th width="60%">Description</th>
+                <th width="5%">Default(s)</th>
+                <th width="20%">Restrictions</th>
+            </tr>
+            <tr>
+                <th>Input</th>
+                <td>Set the input of the filter.</td>
+                <td>
+                    <span/>
+                </td>
+                <td>
+                    <p>Accepts input of following types:<ul>
+                            <li>vtkDataSet</li>
+                        </ul>
+                    </p>
+                    <p>
+      The dataset much contain a field array (none)
+      
+        with 1 component(s).
+      </p>
+                </td>
+            </tr>
+            <tr>
+                <th>SelectArrays</th>
+                <td>Choose arrays that is going to be
+        displayed</td>
+                <td>
+                    <span/>
+                </td>
+                <td/>
+            </tr>
+            <tr>
+                <th>Prefix</th>
+                <td>Text that is used as a prefix to the field
+        value</td>
+                <td>Value is: <span/>
+                </td>
+                <td/>
+            </tr>
+        </table>
+    </body>
+</html>

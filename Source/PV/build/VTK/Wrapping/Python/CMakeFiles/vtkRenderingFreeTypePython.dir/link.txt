@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkRenderingFreeTypePython-pv4.3.a  CMakeFiles/vtkRenderingFreeTypePython.dir/vtkRenderingFreeTypePythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkRenderingFreeTypePython-pv4.3.a

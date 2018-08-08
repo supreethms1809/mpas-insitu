@@ -1,0 +1,34 @@
+# Target labels
+ pqPython
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/ParaView/Qt/Python/pqPythonDebugLeaksView.cxx
+/home/mpas/Desktop/Source/PV/ParaView/Qt/Python/pqPythonDebugLeaksView.h
+/home/mpas/Desktop/Source/PV/ParaView/Qt/Python/pqPythonDialog.cxx
+/home/mpas/Desktop/Source/PV/ParaView/Qt/Python/pqPythonDialog.h
+/home/mpas/Desktop/Source/PV/ParaView/Qt/Python/pqPythonMacroSupervisor.cxx
+/home/mpas/Desktop/Source/PV/ParaView/Qt/Python/pqPythonMacroSupervisor.h
+/home/mpas/Desktop/Source/PV/ParaView/Qt/Python/pqPythonManager.cxx
+/home/mpas/Desktop/Source/PV/ParaView/Qt/Python/pqPythonManager.h
+/home/mpas/Desktop/Source/PV/ParaView/Qt/Python/pqPythonScriptEditor.cxx
+/home/mpas/Desktop/Source/PV/ParaView/Qt/Python/pqPythonScriptEditor.h
+/home/mpas/Desktop/Source/PV/ParaView/Qt/Python/pqPythonShell.cxx
+/home/mpas/Desktop/Source/PV/ParaView/Qt/Python/pqPythonShell.h
+/home/mpas/Desktop/Source/PV/ParaView/Qt/Python/pqPythonSyntaxHighlighter.cxx
+/home/mpas/Desktop/Source/PV/ParaView/Qt/Python/pqPythonSyntaxHighlighter.h
+/home/mpas/Desktop/Source/PV/build/Qt/Python/moc_pqPythonDebugLeaksView.cxx
+/home/mpas/Desktop/Source/PV/build/Qt/Python/moc_pqPythonDialog.cxx
+/home/mpas/Desktop/Source/PV/build/Qt/Python/moc_pqPythonMacroSupervisor.cxx
+/home/mpas/Desktop/Source/PV/build/Qt/Python/moc_pqPythonManager.cxx
+/home/mpas/Desktop/Source/PV/build/Qt/Python/moc_pqPythonScriptEditor.cxx
+/home/mpas/Desktop/Source/PV/build/Qt/Python/moc_pqPythonShell.cxx
+/home/mpas/Desktop/Source/PV/build/Qt/Python/moc_pqPythonSyntaxHighlighter.cxx
+/home/mpas/Desktop/Source/PV/build/Qt/Python/ui_pqPythonDialog.h
+/home/mpas/Desktop/Source/PV/build/Qt/Python/pqPythonModule.h
+/home/mpas/Desktop/Source/PV/build/Qt/Python/moc_pqPythonDebugLeaksView.cxx.rule
+/home/mpas/Desktop/Source/PV/build/Qt/Python/moc_pqPythonDialog.cxx.rule
+/home/mpas/Desktop/Source/PV/build/Qt/Python/moc_pqPythonMacroSupervisor.cxx.rule
+/home/mpas/Desktop/Source/PV/build/Qt/Python/moc_pqPythonManager.cxx.rule
+/home/mpas/Desktop/Source/PV/build/Qt/Python/moc_pqPythonScriptEditor.cxx.rule
+/home/mpas/Desktop/Source/PV/build/Qt/Python/moc_pqPythonShell.cxx.rule
+/home/mpas/Desktop/Source/PV/build/Qt/Python/moc_pqPythonSyntaxHighlighter.cxx.rule
+/home/mpas/Desktop/Source/PV/ParaView/Qt/Python/pqPythonDialog.ui

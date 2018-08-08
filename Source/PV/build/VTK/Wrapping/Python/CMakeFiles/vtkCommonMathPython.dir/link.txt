@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkCommonMathPython-pv4.3.a  CMakeFiles/vtkCommonMathPython.dir/vtkCommonMathPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkCommonMathPython-pv4.3.a

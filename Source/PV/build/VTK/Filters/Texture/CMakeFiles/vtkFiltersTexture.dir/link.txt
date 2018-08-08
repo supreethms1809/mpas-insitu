@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkFiltersTexture-pv4.3.a  CMakeFiles/vtkFiltersTexture.dir/vtkTextureMapToCylinder.cxx.o CMakeFiles/vtkFiltersTexture.dir/vtkTextureMapToPlane.cxx.o CMakeFiles/vtkFiltersTexture.dir/vtkTextureMapToSphere.cxx.o CMakeFiles/vtkFiltersTexture.dir/vtkImplicitTextureCoords.cxx.o CMakeFiles/vtkFiltersTexture.dir/vtkThresholdTextureCoords.cxx.o CMakeFiles/vtkFiltersTexture.dir/vtkTransformTextureCoords.cxx.o CMakeFiles/vtkFiltersTexture.dir/vtkTriangularTCoords.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkFiltersTexture-pv4.3.a

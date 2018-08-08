@@ -1,0 +1,18 @@
+# Target labels
+ vtkftgl
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/ftgl/src/FTBitmapGlyph.cpp
+/home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/ftgl/src/FTBitmapGlyphRenderOpenGL.cpp
+/home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/ftgl/src/FTCharmap.cpp
+/home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/ftgl/src/FTFace.cpp
+/home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/ftgl/src/FTFont.cpp
+/home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/ftgl/src/FTGLBitmapFont.cpp
+/home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/ftgl/src/FTGLBitmapFontRenderOpenGL.cpp
+/home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/ftgl/src/FTGLPixmapFont.cpp
+/home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/ftgl/src/FTGLPixmapFontRenderOpenGL.cpp
+/home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/ftgl/src/FTGlyph.cpp
+/home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/ftgl/src/FTGlyphContainer.cpp
+/home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/ftgl/src/FTLibrary.cpp
+/home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/ftgl/src/FTPixmapGlyph.cpp
+/home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/ftgl/src/FTPixmapGlyphRenderOpenGL.cpp
+/home/mpas/Desktop/Source/PV/ParaView/VTK/ThirdParty/ftgl/src/FTSize.cpp

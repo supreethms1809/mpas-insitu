@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkRenderingCorePython-pv4.3.a  CMakeFiles/vtkRenderingCorePython.dir/vtkRenderingCorePythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkRenderingCorePython-pv4.3.a

@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOVPICPython27D-pv4.3.a  CMakeFiles/vtkIOVPICPythonD.dir/vtkVPICReaderPython.cxx.o CMakeFiles/vtkIOVPICPythonD.dir/vtkIOVPICPythonInitImpl.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOVPICPython27D-pv4.3.a

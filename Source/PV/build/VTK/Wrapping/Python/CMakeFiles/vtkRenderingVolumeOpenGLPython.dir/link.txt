@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkRenderingVolumeOpenGLPython-pv4.3.a  CMakeFiles/vtkRenderingVolumeOpenGLPython.dir/vtkRenderingVolumeOpenGLPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkRenderingVolumeOpenGLPython-pv4.3.a

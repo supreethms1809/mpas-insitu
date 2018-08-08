@@ -1,0 +1,38 @@
+# Target labels
+ vtkIOInfovis
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkBiomTableReader.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkChacoGraphReader.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkDelimitedTextReader.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkDIMACSGraphReader.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkDIMACSGraphWriter.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkFixedWidthTextReader.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkISIReader.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkMultiNewickTreeReader.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkNewickTreeReader.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkNewickTreeWriter.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkPhyloXMLTreeReader.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkPhyloXMLTreeWriter.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkRISReader.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkTulipReader.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkXGMLReader.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkXMLTreeReader.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkBiomTableReader.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkChacoGraphReader.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkDelimitedTextReader.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkDIMACSGraphReader.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkDIMACSGraphWriter.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkFixedWidthTextReader.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkISIReader.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkMultiNewickTreeReader.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkNewickTreeReader.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkNewickTreeWriter.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkPhyloXMLTreeReader.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkPhyloXMLTreeWriter.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkRISReader.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkTulipReader.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkXGMLReader.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Infovis/vtkXMLTreeReader.h
+/home/mpas/Desktop/Source/PV/build/VTK/IO/Infovis/vtkIOInfovisModule.h
+/home/mpas/Desktop/Source/PV/build/VTK/IO/Infovis/vtkIOInfovisHierarchy.stamp.txt
+/home/mpas/Desktop/Source/PV/build/VTK/IO/Infovis/vtkIOInfovisHierarchy.stamp.txt.rule

@@ -1,0 +1,64 @@
+
+<html>
+    <head>
+        <title>XML PolyData Ensemble Reader</title>
+        <meta name="proxy_name" contents="sources.XMLPolyDataEnsembleReader"/>
+        <meta name="filename" contents="sources.XMLPolyDataEnsembleReader.html"/>
+    </head>
+    <body>
+        <h2>XML PolyData Ensemble Reader (XMLPolyDataEnsembleReader)</h2>
+        <i>
+            <p>Reads ensembles of VTK XML polydata files.</p>
+        </i>
+        <div class="description">The XML
+      Polydata reader reads ensembles of VTK XML polydata files. The
+      standard extension is .evtp.</div>
+        <table width="97%" border="2px">
+            <tr bgcolor="#9acd32">
+                <th>Property</th>
+                <th width="60%">Description</th>
+                <th width="5%">Default(s)</th>
+                <th width="20%">Restrictions</th>
+            </tr>
+            <tr>
+                <th>MetaFileName</th>
+                <td>The meta-file for the reader</td>
+                <td>
+                    <span/>
+                </td>
+                <td>
+                    <p> The value(s) must be a filename (or filenames).</p>
+                </td>
+            </tr>
+            <tr>
+                <th>FileIndexRange</th>
+                <td>Smallest and largest index for the list of
+        simulations files. For instance, if we have 10 simulations the
+        FileIndexRange is [0,9].
+        </td>
+                <td>0 0<span/>
+                </td>
+                <td/>
+            </tr>
+            <tr>
+                <th>FileIndex</th>
+                <td>
+          The index of the simulation file in the ensemble.
+        </td>
+                <td>0<span/>
+                </td>
+                <td/>
+            </tr>
+            <tr>
+                <th>TimestepValues</th>
+                <td>
+          Reports time values to the GUI.
+        </td>
+                <td>
+                    <span/>
+                </td>
+                <td/>
+            </tr>
+        </table>
+    </body>
+</html>

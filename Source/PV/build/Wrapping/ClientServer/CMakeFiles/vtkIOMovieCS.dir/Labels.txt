@@ -1,0 +1,8 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkGenericMovieWriterClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkOggTheoraWriterClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkIOMovieCSInit.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Movie/vtkGenericMovieWriter.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/Movie/vtkOggTheoraWriter.h

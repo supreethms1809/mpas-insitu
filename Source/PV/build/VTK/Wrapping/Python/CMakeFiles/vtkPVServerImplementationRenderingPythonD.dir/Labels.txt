@@ -1,0 +1,23 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkSIChartRepresentationProxyPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkSIImageTextureProxyPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkSIPVRepresentationProxyPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkSIScalarBarActorProxyPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkSISelectionRepresentationProxyPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkSITextSourceRepresentationProxyPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkSIUniformGridVolumeRepresentationProxyPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkSIUnstructuredGridVolumeRepresentationProxyPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkSICompositeOrthographicSliceRepresentationProxyPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPVServerImplementationRenderingPythonInitImpl.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkSIChartRepresentationProxyPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkSIImageTextureProxyPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkSIPVRepresentationProxyPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkSIScalarBarActorProxyPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkSISelectionRepresentationProxyPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkSITextSourceRepresentationProxyPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkSIUniformGridVolumeRepresentationProxyPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkSIUnstructuredGridVolumeRepresentationProxyPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkSICompositeOrthographicSliceRepresentationProxyPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPVServerImplementationRenderingPythonInit.cxx.rule

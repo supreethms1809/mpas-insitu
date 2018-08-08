@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkPVCatalystPython-pv4.3.a  CMakeFiles/vtkPVCatalystPython.dir/vtkPVCatalystPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkPVCatalystPython-pv4.3.a

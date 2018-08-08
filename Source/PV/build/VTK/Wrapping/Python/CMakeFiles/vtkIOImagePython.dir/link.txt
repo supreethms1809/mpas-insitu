@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOImagePython-pv4.3.a  CMakeFiles/vtkIOImagePython.dir/vtkIOImagePythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOImagePython-pv4.3.a

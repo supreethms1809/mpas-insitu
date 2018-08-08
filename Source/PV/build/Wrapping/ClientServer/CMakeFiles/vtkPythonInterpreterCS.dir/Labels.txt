@@ -1,0 +1,8 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkPythonInterpreterClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkPythonInteractiveInterpreterClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkPythonInterpreterCSInit.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Utilities/PythonInterpreter/vtkPythonInterpreter.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Utilities/PythonInterpreter/vtkPythonInteractiveInterpreter.h

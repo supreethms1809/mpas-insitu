@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOImportPython27D-pv4.3.a  CMakeFiles/vtkIOImportPythonD.dir/vtk3DSImporterPython.cxx.o CMakeFiles/vtkIOImportPythonD.dir/vtkImporterPython.cxx.o CMakeFiles/vtkIOImportPythonD.dir/vtkVRMLImporterPython.cxx.o CMakeFiles/vtkIOImportPythonD.dir/vtkIOImportPythonInitImpl.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOImportPython27D-pv4.3.a

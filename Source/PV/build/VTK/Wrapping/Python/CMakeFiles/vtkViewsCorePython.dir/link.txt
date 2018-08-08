@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkViewsCorePython-pv4.3.a  CMakeFiles/vtkViewsCorePython.dir/vtkViewsCorePythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkViewsCorePython-pv4.3.a

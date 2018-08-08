@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkFiltersVerdictPython27D-pv4.3.a  CMakeFiles/vtkFiltersVerdictPythonD.dir/vtkCellQualityPython.cxx.o CMakeFiles/vtkFiltersVerdictPythonD.dir/vtkMatrixMathFilterPython.cxx.o CMakeFiles/vtkFiltersVerdictPythonD.dir/vtkMeshQualityPython.cxx.o CMakeFiles/vtkFiltersVerdictPythonD.dir/vtkFiltersVerdictPythonInitImpl.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkFiltersVerdictPython27D-pv4.3.a

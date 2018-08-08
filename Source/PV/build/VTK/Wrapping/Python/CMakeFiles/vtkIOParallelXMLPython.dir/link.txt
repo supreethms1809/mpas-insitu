@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOParallelXMLPython-pv4.3.a  CMakeFiles/vtkIOParallelXMLPython.dir/vtkIOParallelXMLPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOParallelXMLPython-pv4.3.a

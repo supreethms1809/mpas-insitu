@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../lib/libvtkpugixml-pv4.3.a  CMakeFiles/vtkpugixml.dir/pugixml.cxx.o
+/usr/bin/ranlib ../../lib/libvtkpugixml-pv4.3.a

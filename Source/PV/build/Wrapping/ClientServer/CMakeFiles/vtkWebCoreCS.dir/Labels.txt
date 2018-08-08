@@ -1,0 +1,14 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkDataEncoderClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkWebApplicationClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkWebInteractionEventClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkWebUtilitiesClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkObjectIdMapClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkWebCoreCSInit.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Web/Core/vtkDataEncoder.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Web/Core/vtkWebApplication.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Web/Core/vtkWebInteractionEvent.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Web/Core/vtkWebUtilities.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Web/Core/vtkObjectIdMap.h

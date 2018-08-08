@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkCommonSystemPython-pv4.3.a  CMakeFiles/vtkCommonSystemPython.dir/vtkCommonSystemPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkCommonSystemPython-pv4.3.a

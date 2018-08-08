@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkRenderingGL2PS-pv4.3.a  CMakeFiles/vtkRenderingGL2PS.dir/vtkGL2PSContextDevice2D.cxx.o CMakeFiles/vtkRenderingGL2PS.dir/vtkGL2PSUtilities.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkRenderingGL2PS-pv4.3.a

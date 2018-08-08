@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkWebGLExporterPython-pv4.3.a  CMakeFiles/vtkWebGLExporterPython.dir/vtkWebGLExporterPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkWebGLExporterPython-pv4.3.a

@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOPLY-pv4.3.a  CMakeFiles/vtkIOPLY.dir/vtkPLY.cxx.o CMakeFiles/vtkIOPLY.dir/vtkPLYReader.cxx.o CMakeFiles/vtkIOPLY.dir/vtkPLYWriter.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOPLY-pv4.3.a

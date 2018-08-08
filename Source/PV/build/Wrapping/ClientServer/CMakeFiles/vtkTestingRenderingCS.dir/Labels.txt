@@ -1,0 +1,10 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkTestingClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkTestingInteractorClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkTestingObjectFactoryClientServer.cxx
+/home/mpas/Desktop/Source/PV/build/Wrapping/ClientServer/vtkTestingRenderingCSInit.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Testing/Rendering/vtkTesting.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Testing/Rendering/vtkTestingInteractor.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/Testing/Rendering/vtkTestingObjectFactory.h

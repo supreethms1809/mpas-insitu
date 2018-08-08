@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOLegacyPython-pv4.3.a  CMakeFiles/vtkIOLegacyPython.dir/vtkIOLegacyPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOLegacyPython-pv4.3.a

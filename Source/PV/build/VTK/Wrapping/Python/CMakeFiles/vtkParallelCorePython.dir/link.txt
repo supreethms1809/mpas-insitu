@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkParallelCorePython-pv4.3.a  CMakeFiles/vtkParallelCorePython.dir/vtkParallelCorePythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkParallelCorePython-pv4.3.a

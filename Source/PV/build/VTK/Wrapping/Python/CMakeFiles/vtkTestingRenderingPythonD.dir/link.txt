@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkTestingRenderingPython27D-pv4.3.a  CMakeFiles/vtkTestingRenderingPythonD.dir/vtkTestingPython.cxx.o CMakeFiles/vtkTestingRenderingPythonD.dir/vtkTestingInteractorPython.cxx.o CMakeFiles/vtkTestingRenderingPythonD.dir/vtkTestingObjectFactoryPython.cxx.o CMakeFiles/vtkTestingRenderingPythonD.dir/vtkTestingRenderingPythonInitImpl.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkTestingRenderingPython27D-pv4.3.a

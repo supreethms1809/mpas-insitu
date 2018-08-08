@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkRenderingVolumeAMRPython-pv4.3.a  CMakeFiles/vtkRenderingVolumeAMRPython.dir/vtkRenderingVolumeAMRPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkRenderingVolumeAMRPython-pv4.3.a

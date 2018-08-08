@@ -1,0 +1,12 @@
+# Target labels
+ vtkIOPLY
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/PLY/vtkPLY.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/PLY/vtkPLYReader.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/PLY/vtkPLYWriter.cxx
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/PLY/vtkPLY.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/PLY/vtkPLYReader.h
+/home/mpas/Desktop/Source/PV/ParaView/VTK/IO/PLY/vtkPLYWriter.h
+/home/mpas/Desktop/Source/PV/build/VTK/IO/PLY/vtkIOPLYModule.h
+/home/mpas/Desktop/Source/PV/build/VTK/IO/PLY/vtkIOPLYHierarchy.stamp.txt
+/home/mpas/Desktop/Source/PV/build/VTK/IO/PLY/vtkIOPLYHierarchy.stamp.txt.rule

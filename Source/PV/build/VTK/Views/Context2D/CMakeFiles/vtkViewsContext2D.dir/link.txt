@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkViewsContext2D-pv4.3.a  CMakeFiles/vtkViewsContext2D.dir/vtkContextView.cxx.o CMakeFiles/vtkViewsContext2D.dir/vtkContextInteractorStyle.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkViewsContext2D-pv4.3.a

@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkInteractionImage-pv4.3.a  CMakeFiles/vtkInteractionImage.dir/vtkImageViewer2.cxx.o CMakeFiles/vtkInteractionImage.dir/vtkImageViewer.cxx.o CMakeFiles/vtkInteractionImage.dir/vtkResliceImageViewer.cxx.o CMakeFiles/vtkInteractionImage.dir/vtkResliceImageViewerMeasurements.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkInteractionImage-pv4.3.a

@@ -1,0 +1,17 @@
+# Target labels
+ VTKModular
+# Source files and their labels
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkCPAdaptorAPIPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkCPDataDescriptionPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkCPInputDataDescriptionPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkCPPipelinePython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkCPProcessorPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/FortranAdaptorAPIPython.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPVCatalystPythonInitImpl.cxx
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkCPAdaptorAPIPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkCPDataDescriptionPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkCPInputDataDescriptionPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkCPPipelinePython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkCPProcessorPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/FortranAdaptorAPIPython.cxx.rule
+/home/mpas/Desktop/Source/PV/build/VTK/Wrapping/Python/vtkPVCatalystPythonInit.cxx.rule

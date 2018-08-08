@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkIOInfovisPython-pv4.3.a  CMakeFiles/vtkIOInfovisPython.dir/vtkIOInfovisPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkIOInfovisPython-pv4.3.a

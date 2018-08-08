@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkImagingFourierPython-pv4.3.a  CMakeFiles/vtkImagingFourierPython.dir/vtkImagingFourierPythonInit.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkImagingFourierPython-pv4.3.a

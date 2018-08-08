@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/libvtkFiltersVerdict-pv4.3.a  CMakeFiles/vtkFiltersVerdict.dir/vtkCellQuality.cxx.o CMakeFiles/vtkFiltersVerdict.dir/vtkMatrixMathFilter.cxx.o CMakeFiles/vtkFiltersVerdict.dir/vtkMeshQuality.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkFiltersVerdict-pv4.3.a

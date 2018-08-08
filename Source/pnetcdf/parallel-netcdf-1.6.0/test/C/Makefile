@@ -1,0 +1,60 @@
+#
+# Copyright (C) 2003, Northwestern University and Argonne National Laboratory
+# See COPYRIGHT notice in top-level directory.
+#
+# $Id: Makefile.in 1885 2014-11-21 17:50:49Z wkliao $
+#
+# test/C/Makefile.  Generated from Makefile.in by configure.
+
+srcdir	= .
+
+
+include ../../macros.make
+
+INCLUDES  = -I../../src/lib
+LIBS     := $(LIBRARY) $(LIBS) 
+
+SRCS    = pres_temp_4D_wr.c \
+          pres_temp_4D_rd.c
+
+OBJS    = $(SRCS:.c=.o)
+PROGS   = $(SRCS:.c=)
+
+GARBAGE      = $(PROGS) *.nc
+PACKING_LIST = $(SRCS) Makefile.in
+
+all: $(PROGS)
+
+pres_temp_4D_wr.o: pres_temp_4D_wr.c 
+
+pres_temp_4D_wr: pres_temp_4D_wr.o $(LIBRARY)
+	$(LINK.c) $< $(LDFLAGS) $(LIBS)
+
+pres_temp_4D_rd.o: pres_temp_4D_rd.c 
+
+pres_temp_4D_rd: pres_temp_4D_rd.o $(LIBRARY)
+	$(LINK.c) $< $(LDFLAGS) $(LIBS)
+
+check testing verbose_testing: $(PROGS)
+	$(TEST_SEQRUN) ./pres_temp_4D_wr $(TEST_OUTDIR)/testfile.nc
+	$(TEST_SEQRUN) ./pres_temp_4D_rd $(TEST_OUTDIR)/testfile.nc
+
+TEST_MPIRUN_4  = $(subst NP,4,$(TEST_MPIRUN))
+ptest: $(PROGS)
+	@for i in $(PROGS); do ( \
+	$(TEST_MPIRUN_4) ./$$i $(TEST_OUTDIR)/testfile.nc \
+	; ) ; done
+
+TEST_MPIRUN_2  = $(subst NP,2,$(TEST_MPIRUN))
+ptests: $(PROGS)
+	@for i in $(PROGS); do ( \
+	$(TEST_MPIRUN_4) ./$$i $(TEST_OUTDIR)/testfile.nc \
+	; ) ; done
+	@for i in $(PROGS); do ( \
+	$(TEST_MPIRUN_2) ./$$i $(TEST_OUTDIR)/testfile.nc \
+	; ) ; done
+
+include $(srcdir)/../../rules.make
+
+$(LIBRARY): ;
+
